@@ -12,6 +12,7 @@ function App() {
         <div className="App-main-box">
           <p className="Actions">Place a Complex Order</p>
           <ActionCard></ActionCard>
+          <button className = "Add-action">Add order</button>
         </div>
       </header>
     </div>

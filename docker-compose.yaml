@@ -1,8 +1,11 @@
+version: "3.9"
+
 services:
   auction_engine:
     build:
       context: .
       dockerfile: backend/auction_engine.dockerfile
+<<<<<<< HEAD
   oms:
     build:
       context: .
@@ -14,3 +17,8 @@ services:
     tty: true
 
   
+=======
+    volumes:
+      - ./backend:/code
+    tty: true
+>>>>>>> 0daf1525e6afbc0fa924faf0ff23552cd9b6411a

@@ -2,4 +2,3 @@ fastapi
 pandas
 pydantic
 pytest
-python_1inch

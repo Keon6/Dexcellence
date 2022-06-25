@@ -4,4 +4,4 @@ WORKDIR /backend
 COPY /backend/requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "python" ]
+ENTRYPOINT [ "/bin/bash" ]
