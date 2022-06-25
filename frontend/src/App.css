@@ -81,7 +81,14 @@
   height: 60px;
   width: 100px;
   color: white;
+  text-align: center;
   border-radius: 3px;
+  border: 3px solid var(--actioncard-box-border-color);
+  font-size: 20px;
+}
+.react-dropdown-select-item {
+  background-color: var(--main-box-color);
+  font-size: 20px;
   border: 3px solid var(--actioncard-box-border-color);
 }
 
@@ -95,8 +102,9 @@
   border: 0;
   margin: 0;
   width: 100px;
+  font-size: 20px;
 }
 .InputItem-text {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
 }

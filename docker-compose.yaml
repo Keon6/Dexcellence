@@ -3,4 +3,14 @@ services:
     build:
       context: .
       dockerfile: backend/auction_engine.dockerfile
+  oms:
+    build:
+      context: .
+      dockerfile: frontend/oms.dockerfile
+    container_name: oms_container
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+
   
