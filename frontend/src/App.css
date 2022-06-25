@@ -67,4 +67,36 @@
   margin: auto;
   border-radius: 1vh;
   border: 1vh solid var(--actioncard-box-border-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ActionCard-spacer {
+  width: 5%;
+}
+
+.InputItem-dropdown {
+  background-color: var(--main-box-color);
+  height: 60px;
+  width: 100px;
+  color: white;
+  border-radius: 3px;
+  border: 3px solid var(--actioncard-box-border-color);
+}
+
+.InputItem-Flex {
+  display: flex;
+  flex-direction: column;
+}
+.PriceInput {
+  height: 50px;
+  padding: 5px;
+  border: 0;
+  margin: 0;
+  width: 100px;
+}
+.InputItem-text {
+  margin: 0;
+  font-size: 15px;
 }

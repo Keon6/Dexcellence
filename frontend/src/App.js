@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-topbar">
-          <Navbar></Navbar>
+          {/*<Navbar></Navbar>*/}
         </div>
         <div className="App-main-box">
-          <p className="Actions">Actions</p>
+          <p className="Actions">Place a Complex Order</p>
           <ActionCard></ActionCard>
         </div>
       </header>
