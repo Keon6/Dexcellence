@@ -1,3 +1,11 @@
+:root {
+  --background-color: #311344;
+  --main-box-shadow-color: #471B61;
+  --main-box-color: #713696;
+  --actioncard-box-color: #5A4698;
+  --actioncard-box-border-color: #362668;
+}
+
 .App {
   text-align: center;
 }
@@ -7,6 +15,21 @@
   pointer-events: none;
 }
 
+.App-topbar {
+  background-color: var(--main-box-shadow-color);
+  width: 100vw;
+  height: 10vh;
+  margin: 0;
+}
+
+.App-main-box {
+  background-color: var(--main-box-color);
+  min-height: 60vh;
+  width: 50vw;
+  border-radius: 2vh;
+  box-shadow: 10px 10px var(--main-box-shadow-color);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +37,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--background-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +58,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ActionCard-box {
+  background-color: var(--actioncard-box-color);
+  width: 90%;
+  min-height: 20vh;
+  margin: auto;
+  border-radius: 1vh;
+  border: 1vh solid var(--actioncard-box-border-color);
 }
