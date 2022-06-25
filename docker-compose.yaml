@@ -1,0 +1,6 @@
+services:
+  auction_engine:
+    build:
+      context: .
+      dockerfile: backend/auction_engine.dockerfile
+  
