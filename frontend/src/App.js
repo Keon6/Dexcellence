@@ -35,9 +35,16 @@ function App(props) {
   function removeActionCard(index) {
     const newCards = [...cards];
     for (var start = index + 1; start < newCards.length; start++) {
-      newCards[start].index -= 1;
+      updateOrder(start, 'index', start - 1);
+      // updateOrder(start, 'action', cards[start-1].action);
+      // updateOrder(start, 'coin', cards[start-1].coin);
+      // updateOrder(start, 'mmp', cards[start-1].mmp);
+      // updateOrder(start, 'ttxa', cards[start-1].ttxa);
     }
     newCards.splice(index, 1);
+    for (var i = 0; i < newCards.length; i++) {
+      console.log(i + ": " + newCards[i].coin);
+    }
     setCards(newCards);
     setNumCards(numCards - 1);
   }
@@ -53,7 +60,7 @@ function App(props) {
           <div className = "ActionCardContainer">
             {
               cards.map((order, index) => (
-                <div className = "ActionCard-box">
+                <div className = "ActionCard-box" key = {index}>
                   <div className = "ActionCard-spacer"></div>
                   <p className = "IndexText">{index}</p>
                   <div className = "ActionCard-spacer"></div>
@@ -71,30 +78,32 @@ function App(props) {
                   <div className = "ActionCard-spacer"></div>
                   {/*Input the coin*/}
                   <div className = "InputItem-flex">
-                      <Select
-                          options = {coins}
-                          placeholder = 'ETH'
-                          color = 'white'
-                          onChange = {(values) => updateOrder(index, 'coin', values[0].label)}
-                          className = "InputItem-dropdown"
-                          style = {{width: '100px', 
-                          borderRadius: '5px',
-                          border: '1px solid white',}}
-                          searchable = {false}  
-                      />
+                      <select
+                        value = {order.coin}
+                        placeholder = 'ETH'
+                        color = 'white'
+                        onChange = {e => updateOrder(index, 'coin', e.target.value)}
+                        className = "InputItem-dropdown"
+                      >
+                        <option value="ETH">ETH</option>
+                        <option value="BTC">BTC</option>
+                        <option value="SOL">SOL</option>
+                      </select>
                       <p className = "InputItem-text">Coin</p>
                   </div>
                   <div className = "ActionCard-spacer"></div>
                   {/*Input the max/min price*/}
                   <div className = "InputItem-flex">
-                      <input className = "PriceInput" type="text"></input>
+                      <input className = "PriceInput" type="text" value={order.mmp}
+                      onChange={(e) => updateOrder(index, 'mmp', e.target.value)}></input>
                       <p className = "InputItem-text">
                         {cards[index].action == 'Buy' ? 'Max coin buy price' : 'Min coin sell price'}
                       </p>
                   </div>
                   <div className = "ActionCard-spacer"></div>
                   <div className = "InputItem-flex">
-                      <input className = "PriceInput" type="text"></input>
+                      <input className = "PriceInput" type="text" value={order.ttxa}
+                      onChange={(e) => updateOrder(index, 'ttxa', e.target.value)}></input>
                       <p className = "InputItem-text">Total tx amount</p>
                   </div>
                   <div className = "ActionCard-spacer"></div>
