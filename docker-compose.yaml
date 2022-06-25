@@ -2,5 +2,5 @@ services:
   auction_engine:
     build:
       context: .
-      dockerfile: auction_engine.dockerfile
+      dockerfile: backend/auction_engine.dockerfile
   
