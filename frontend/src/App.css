@@ -62,8 +62,8 @@
 
 .ActionCard-box {
   background-color: var(--actioncard-box-color);
-  width: 35vw;
-  height: 30vh;
+  width: 90%;
+  min-height: 20vh;
   margin: auto;
   border-radius: 1vh;
   border: 1vh solid var(--actioncard-box-border-color);
