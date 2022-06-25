@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import ActionCard from './components/ActionCard.js'
 import './App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         </div>
         <div className="App-main-box">
           <p className="Actions">Actions</p>
-            
+          <ActionCard></ActionCard>
         </div>
       </header>
     </div>

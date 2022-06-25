@@ -2,6 +2,8 @@
   --background-color: #311344;
   --main-box-shadow-color: #471B61;
   --main-box-color: #713696;
+  --actioncard-box-color: #5A4698;
+  --actioncard-box-border-color: #362668;
 }
 
 .App {
@@ -56,4 +58,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ActionCard-box {
+  background-color: var(--actioncard-box-color);
+  width: 35vw;
+  height: 30vh;
+  margin: auto;
+  border-radius: 1vh;
+  border: 1vh solid var(--actioncard-box-border-color);
 }
