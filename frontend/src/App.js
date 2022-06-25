@@ -114,6 +114,7 @@ function App(props) {
               ))
             }
           </div>
+          <button className = "Submit" onClick={console.log("Submit")}>Submit</button>
           <button className = "Add-action" onClick={addCard}>Add order</button>
         </div>
       </header>
