@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';  
 import Select from 'react-dropdown-select';
-import 'font-awesome/css/font-awesome.min.css';
 
 export default () => {
     const coins = [
