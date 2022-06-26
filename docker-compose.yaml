@@ -5,6 +5,20 @@ services:
     build:
       context: .
       dockerfile: backend/auction_engine.dockerfile
+<<<<<<< HEAD
+  oms:
+    build:
+      context: .
+      dockerfile: frontend/oms.dockerfile
+    container_name: oms_container
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+
+  
+=======
     volumes:
       - ./backend:/code
     tty: true
+>>>>>>> 0daf1525e6afbc0fa924faf0ff23552cd9b6411a
