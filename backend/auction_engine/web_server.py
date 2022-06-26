@@ -1,4 +1,5 @@
 import logging
+import sys
 
 from fastapi import Depends, FastAPI
 from sqlalchemy.orm import Session
@@ -8,6 +9,13 @@ from auction_engine.sql import crud, models
 from auction_engine.sql.database import SessionLocal, engine
 
 models.Base.metadata.create_all(bind=engine)
+logging.basicConfig(
+    format='%(asctime)s %(levelname)-8s %(message)s',
+    level=logging.INFO,
+    datefmt='%Y-%m-%d %H:%M:%S',
+    stream=sys.stdout,
+    force=True,
+)
 
 APP = FastAPI()
 
