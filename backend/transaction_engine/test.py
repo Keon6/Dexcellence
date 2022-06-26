@@ -3,14 +3,14 @@ from time import time
 from matching_engine import *
 
 assets = ["BTC", "ETH", "SOL", "1INCH", "DOGE"]
-quantities = {"BTC": 1000, "ETH":1565, "SOL":420, "1INCH":3453, "DOGE":500}
+quantities = {"BTC": 1000, "ETH": 1565, "SOL": 420, "1INCH": 3453, "DOGE": 500}
 
 transactions = []
 
 for asset in assets:
     Q = quantities[asset]
-    sell_percentages = np.random.dirichlet(np.ones(3), size=None)
-    buy_percentages = np.random.dirichlet(np.ones(4), size=None)
+    sell_percentages = np.random.dirichlet(np.ones(30), size=None)
+    buy_percentages = np.random.dirichlet(np.ones(43), size=None)
     i = 2
     for p in sell_percentages:
         q = -np.multiply(Q, p)
@@ -41,7 +41,7 @@ for asset in assets:
     buyQ = 0
     for buy in asset_to_buys[asset]:
         buyQ += buy["quantity"]
-    print(sellQ, buyQ)
+    print(sellQ + buyQ)
 
 
     from_to_2heaps = matching_algo_2heaps(asset_to_sells[asset], asset_to_buys[asset])
