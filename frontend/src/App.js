@@ -2,6 +2,7 @@ import './App.css';
 import './components/Navbar.css'
 import Complex from './components/complex';
 import Swap from './components/swap';
+import './components/portfolio.css'
 import {Component, useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 
@@ -70,8 +71,32 @@ function Stuff(props) {
       <Topnav setState = {setState}/>
       {state === 'swap' && (<Swap/>)}
       {state === 'complex' && (<Complex/>)}
+      <Portfolio />
     </header>
   );
+}
+
+function Portfolio(){
+  
+  return(
+    <div className='portfolio-box'>
+      <p className="Portfolio-text">My Portfolio</p>
+      <div className='portfolio-info'>
+        <p className='assets-header'>Assets</p>
+        <p className='balance-header'>Balance</p>
+        <ul className='assets'>
+          <li className='asset-li'>ETH</li>
+          <li className='asset-li'>BTC</li>
+          <li className='asset-li'>SOL</li>
+        </ul>
+        <ul className='balances'>
+          <li className='asset-li'>10.2</li>
+          <li className='asset-li'>0.75</li>
+          <li className='asset-li'>20.51</li>
+        </ul>
+      </div>
+    </div>
+  )
 }
 
 function App(props) {
