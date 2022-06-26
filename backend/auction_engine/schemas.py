@@ -2,7 +2,7 @@ import datetime
 from decimal import Decimal
 from enum import IntEnum
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class BaseEnum(IntEnum):
@@ -19,22 +19,25 @@ class StrictModel(BaseModel, extra='forbid'):
     pass
 
 
-class BaseOrder(StrictModel):
+class LimitOrder(StrictModel):
     order_id: str
     wallet_id: str
     from_token: str
     to_token: str
     from_token_amount: int
-    sent_timestamp: datetime.datetime
-
-
-class LimitOrder(BaseOrder):
     rate_upper_limit: Decimal
     rate_lower_limit: Decimal
+    sent_timestamp: datetime.datetime
+    received_timestamp: datetime.datetime = Field(
+        default_factory=datetime.datetime.utcnow,
+    )
+
+    class Config:
+        orm_mode = True
 
 
 class Transaction(StrictModel):
-    order: BaseOrder
+    order: LimitOrder
     order_state: str
     from_token: str
     to_token: str
@@ -46,12 +49,16 @@ class Transaction(StrictModel):
 class OrderStateEnum(BaseEnum):
     SUBMITTED = 0
     INCOMPLETE = 1
-    FILLED = 2
+    PARTIAL = 2
+    FILLED = 3
 
 
 class OrderState(StrictModel):
     order_id: str
     state: OrderStateEnum
+
+    class Config:
+        orm_mode = True
 
 
 class ReferenceRate(BaseModel):

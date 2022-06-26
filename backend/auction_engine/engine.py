@@ -1,3 +1,4 @@
+import asyncio
 import datetime
 import logging
 from decimal import Decimal
@@ -11,11 +12,11 @@ from matplotlib.lines import Line2D
 from pydantic import Field
 
 from auction_engine import one_inch
-from auction_engine.models import BaseOrder, LimitOrder, StrictModel, Transaction
+from auction_engine.schemas import LimitOrder, StrictModel, Transaction, OrderStateEnum
 
 
 class AuctionOrder(StrictModel):
-    order: BaseOrder
+    order: LimitOrder
     received_timestamp: datetime.datetime
 
 
@@ -137,9 +138,9 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         fltr_unfilled = order_book['optimal_fill'].lt(1e-10)
 
         states = {
-            'filled': fltr_filled,
-            'partial': fltr_partial,
-            'unfilled': fltr_unfilled,
+            OrderStateEnum.FILLED: fltr_filled,
+            OrderStateEnum.PARTIAL: fltr_partial,
+            OrderStateEnum.INCOMPLETE: fltr_unfilled,
         }
 
         for state, fltr in states.items():

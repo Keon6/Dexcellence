@@ -11,7 +11,7 @@ from auction_engine.one_inch import (
     ReferenceRate,
     UnknownTokenError,
 )
-from auction_engine.models import LimitOrder
+from auction_engine.schemas import LimitOrder
 
 
 def generate_limit_orders(

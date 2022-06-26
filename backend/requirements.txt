@@ -2,3 +2,6 @@ fastapi
 pandas
 pydantic
 pytest
+sqlalchemy
+typer
+uvicorn[standard]
