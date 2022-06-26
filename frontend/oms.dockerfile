@@ -8,4 +8,4 @@ COPY /frontend .
 EXPOSE 3000
 COPY . ./
 
-RUN npm run start
+CMD ["npm", "start"]
