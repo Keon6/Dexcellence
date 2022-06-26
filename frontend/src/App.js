@@ -87,12 +87,12 @@ function Portfolio(){
         <ul className='assets'>
           <li className='asset-li'>ETH</li>
           <li className='asset-li'>BTC</li>
-          <li className='asset-li'>SOL</li>
+          <li className='asset-li'>1INCH</li>
         </ul>
         <ul className='balances'>
-          <li className='asset-li'>10.2</li>
+          <li className='asset-li'>10.20</li>
           <li className='asset-li'>0.75</li>
-          <li className='asset-li'>20.51</li>
+          <li className='asset-li'>229.13</li>
         </ul>
       </div>
     </div>

@@ -5,7 +5,7 @@ function Complex(props) {
   var coins = [
     { value: 'btc', label: 'BTC' },
     { value: 'eth', label: 'ETH' },
-    { value: 'sol', label: 'SOL' },
+    { value: '1inch', label: '1INCH' },
   ]
 
   const [numCards, setNumCards] = useState(0);
@@ -88,7 +88,7 @@ function Complex(props) {
                     >
                     <option value="ETH">ETH</option>
                     <option value="BTC">BTC</option>
-                    <option value="SOL">SOL</option>
+                    <option value="1INCH">1INCH</option>
                     </select>
                     <p className = "InputItem-text">Coin</p>
                 </div>
