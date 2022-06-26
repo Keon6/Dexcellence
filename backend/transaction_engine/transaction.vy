@@ -33,3 +33,9 @@ def __init__(_from_wallet: address, _to_wallet: address, _transfer_amount: uint2
 @internal
 def _check_balance() -> uint256:
     return self.from_wallet[]
+
+@external
+def transfer():
+    # Check balance
+    # run transaction
+    pass
