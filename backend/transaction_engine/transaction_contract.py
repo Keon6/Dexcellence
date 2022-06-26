@@ -3,14 +3,14 @@ import requests
 url = "https://api-eu1.tatum.io/v3/ethereum/smartcontract"
 
 
-def __invoke_transaction_smart_contract(API_KEY):
+def __invoke_transaction_smart_contract(API_KEY, from_wallet, to_wallet, contract_address, gas_limit, gas_price):
     headers = {
         "Content-Type": "application/json",
         "x-testnet-type": "ethereum-ropsten",
         "x-api-key": API_KEY,
     }
     payload = {
-        "contractAddress": "TODO", # TODO,
+        "contractAddress": contract_address, # TODO,
         "methodName": "transfer",
         "methodABI": {
             "inputs": [
@@ -32,8 +32,8 @@ def __invoke_transaction_smart_contract(API_KEY):
         "fromPrivateKey": "0x05e150c73f1920ec14caa1e0b6aa09940899678051a78542840c2668ce5080c2",
         "nonce": 0,
         "fee": {
-            "gasLimit": "40000",
-            "gasPrice": "20"
+            "gasLimit": gas_limit,
+            "gasPrice": gas_price
         }
     }
 
