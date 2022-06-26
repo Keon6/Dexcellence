@@ -86,7 +86,9 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
             x='amount',
             y='limit_rate',
             c=order_book['side'].replace({'BUY': 'green', 'SELL': 'red'}),
-            title=f'Auction Order Book {self.from_token}/{self.to_token}'
+            title=f'Auction Order Book {self.from_token}/{self.to_token}',
+            alpha=0.6,
+            figsize=(10, 7)
         )
         if reference_rate:
             plt.axhline(y=reference_rate, color='lightblue', linestyle='-')
