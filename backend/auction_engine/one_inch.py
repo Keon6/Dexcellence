@@ -23,6 +23,9 @@ API_CHAINS = dict(
     binance = '56'
 )
 
+class UnknownTokenError(Exception):
+    pass
+
 
 class TokenInfo(BaseModel):
     symbol: str
@@ -100,6 +103,15 @@ class OneInchExchange(BaseModel):
         to_token_symbol: str,
         amount:int,
     ) -> Quote:
+        """
+        Requests an aggregated quote from the 1inch dex to exchange an amount
+        of one token into another
+        """
+        if from_token_symbol not in self.tokens:
+            raise UnknownTokenError(from_token_symbol)
+        if to_token_symbol not in self.tokens:
+            raise UnknownTokenError(to_token_symbol)
+
         query_amount = (
             Decimal(
                 10 ** self.tokens[from_token_symbol].decimals * amount
@@ -118,37 +130,43 @@ class OneInchExchange(BaseModel):
         return quote
 
     def convert_amount_to_decimal(self, token_symbol: str, amount: int) -> Decimal:
+        if token_symbol not in self.tokens:
+            raise UnknownTokenError(token_symbol)
+
         decimal = self.tokens[token_symbol].decimals
         return Decimal(amount) / Decimal(10**decimal)
 
 
-class ReferencePrice(BaseModel):
+class ReferenceRate(BaseModel):
     from_token: str
     to_token: str
     amount: int
     rate: Decimal
     quote: Quote
 
+    def __repr__(self) -> str:
+        return f'ReferenceRate({self.rate} {self.to_token}/{self.from_token})'
 
-def get_reference_price(
+API = OneInchExchange()
+API.initialize()
+
+
+def get_reference_rate(
     from_token: str,
     to_token: str,
     amount: int = 1,
-) -> ReferencePrice:
-    api = OneInchExchange()
-    api.initialize()
-
-    quote = api.get_quote(from_token, to_token, amount)
-    from_decimal = api.convert_amount_to_decimal(
+) -> ReferenceRate:
+    quote = API.get_quote(from_token, to_token, amount)
+    from_decimal = API.convert_amount_to_decimal(
         token_symbol=from_token,
         amount=quote.from_token_amount,
     )
-    to_decimal = api.convert_amount_to_decimal(
+    to_decimal = API.convert_amount_to_decimal(
         token_symbol=to_token,
         amount=quote.to_token_amount,
     )
 
-    return ReferencePrice(
+    return ReferenceRate(
         from_token=from_token,
         to_token=to_token,
         amount=amount,
