@@ -1,124 +1,84 @@
-import logo from './logo.svg';
 import './App.css';
-import Select from 'react-dropdown-select'
-import {useState} from 'react';
+import './components/Navbar.css'
+import Complex from './components/complex';
+import Swap from './components/swap';
+import {Component, useState, useEffect } from 'react';
+import { ethers } from 'ethers';
 
-function App(props) {
-  var coins = [
-    { value: 'btc', label: 'BTC' },
-    { value: 'eth', label: 'ETH' },
-    { value: 'sol', label: 'SOL' },
-  ]
+function Topnav(props) {
 
-  const [numCards, setNumCards] = useState(0);
-  const [cards, setCards] = useState([]);
+  const [errMessage, setErrMessage] = useState(null);
+  const [defaultAccount, setDefaultAccount] = useState(null);
+  const [userBalance, setUserBalance] = useState(null);
 
-  const addCard = i => {
-    const newCards = [...cards, {
-      'index' : numCards,
-      'action' : 'buy',
-      'coin' : 'eth',
-      'mmp' : 0,
-      'ttxa' : 0,
-    }];
-    setNumCards(numCards + 1);
-    setCards(newCards);
+  const openSwap = () => { props.setState('swap') };
+  const openComplex = () => { props.setState('complex') };
+  const openMore = () => { props.setState('more') };
+
+  const WalletConnectionHandler = () => {
+    if(window.ethereum) {
+        window.ethereum.request({method: 'eth_requestAccounts'})
+        .then(result => {
+            AccountHandler(result[0])
+            document.getElementById('ButtonConnection').innerText = 'Connected!'
+        })
+    }
+    else
+    { 
+        errMessage("Please install metamask!");
+    }
   }
 
-  const updateOrder = (index, field, value) => {
-    const newCards = [...cards];
-    newCards[index][field] = value;
-    console.log("Set order[" + index + "]." + field + " to " + value);
-    setCards(newCards);
+  const AccountHandler = (newAccount) => {
+    setDefaultAccount(newAccount);
+    getUserBalc(newAccount);
   }
 
-  function removeActionCard(index) {
-    const newCards = [...cards];
-    for (var start = index + 1; start < newCards.length; start++) {
-      updateOrder(start, 'index', start - 1);
-      // updateOrder(start, 'action', cards[start-1].action);
-      // updateOrder(start, 'coin', cards[start-1].coin);
-      // updateOrder(start, 'mmp', cards[start-1].mmp);
-      // updateOrder(start, 'ttxa', cards[start-1].ttxa);
-    }
-    newCards.splice(index, 1);
-    for (var i = 0; i < newCards.length; i++) {
-      console.log(i + ": " + newCards[i].coin);
-    }
-    setCards(newCards);
-    setNumCards(numCards - 1);
+  const getUserBalc = (address) => {
+    window.ethereum.request({method: 'eth_getBalance', params: [address, 'latest']})
+    .then(balance => {
+        setUserBalance(ethers.utils.formatEther(balance));
+    })
+    return (
+        <div>
+        <h4>Balance: {userBalance} ETH</h4>
+        </div>
+    )
   }
 
   return (
+    <div className="topnav">
+      <h3 className="Navbar-header">Dexcellence</h3>
+      <ul className='navElements'>
+          <li><a href='#Swap' onClick={openSwap}>Swap</a></li>
+          <li><a href='#Complex' onClick={openComplex}>Complex Order</a></li>
+          <li><a href='#More' onClick={openMore}>More</a></li>  
+      </ul>
+      <button className="connectButton" id="ButtonConnection" onClick={WalletConnectionHandler}>Connect Wallet</button>
+    </div>
+  );
+}
+
+// Allows us to use state
+function Stuff(props) {
+  useEffect(() => {
+    document.title = "Dexcellence";
+  });
+  const [state, setState] = useState('swap');
+  return (
+    <header className="App-header">
+      <Topnav setState = {setState}/>
+      {state === 'swap' && (<Swap/>)}
+      {state === 'complex' && (<Complex/>)}
+    </header>
+  );
+}
+
+function App(props) {
+  return (
     <div className="App">
-      <header className="App-header">
-        <div className="App-topbar">
-          {/*<Navbar></Navbar>*/}
-        </div>
-        <div className="App-main-box">
-          <p className="Actions">Place a Complex Order</p>
-          <div className = "ActionCardContainer">
-            {
-              cards.map((order, index) => (
-                <div className = "ActionCard-box" key = {index}>
-                  <div className = "ActionCard-spacer"></div>
-                  <p className = "IndexText">{index}</p>
-                  <div className = "ActionCard-spacer"></div>
-                  {/*Input the action (buy/sell)*/}
-                  <div className = "InputItem-flex">
-                      <select 
-                          value={order.action} 
-                          onChange={e => updateOrder(index, 'action', e.target.value)} 
-                          className = "InputItem-dropdown">
-                          <option value="Buy">Buy</option>
-                          <option value="Sell">Sell</option>
-                      </select>
-                      <p className = "InputItem-text">Action</p>
-                  </div>
-                  <div className = "ActionCard-spacer"></div>
-                  {/*Input the coin*/}
-                  <div className = "InputItem-flex">
-                      <select
-                        value = {order.coin}
-                        placeholder = 'ETH'
-                        color = 'white'
-                        onChange = {e => updateOrder(index, 'coin', e.target.value)}
-                        className = "InputItem-dropdown"
-                      >
-                        <option value="ETH">ETH</option>
-                        <option value="BTC">BTC</option>
-                        <option value="SOL">SOL</option>
-                      </select>
-                      <p className = "InputItem-text">Coin</p>
-                  </div>
-                  <div className = "ActionCard-spacer"></div>
-                  {/*Input the max/min price*/}
-                  <div className = "InputItem-flex">
-                      <input className = "PriceInput" type="text" value={order.mmp}
-                      onChange={(e) => updateOrder(index, 'mmp', e.target.value)}></input>
-                      <p className = "InputItem-text">
-                        {cards[index].action == 'Buy' ? 'Max coin buy price' : 'Min coin sell price'}
-                      </p>
-                  </div>
-                  <div className = "ActionCard-spacer"></div>
-                  <div className = "InputItem-flex">
-                      <input className = "PriceInput" type="text" value={order.ttxa}
-                      onChange={(e) => updateOrder(index, 'ttxa', e.target.value)}></input>
-                      <p className = "InputItem-text">Total tx amount</p>
-                  </div>
-                  <div className = "ActionCard-spacer"></div>
-                  <button className="DeleteButton" onClick={() => {removeActionCard(index)}}>
-                      <img src={require('./DeleteIcon.png')} className = "DeleteButtonImage" />
-                  </button>
-              </div>
-              ))
-            }
-          </div>
-          <button className = "Submit" onClick={console.log("Submit")}>Submit</button>
-          <button className = "Add-action" onClick={addCard}>Add order</button>
-        </div>
-      </header>
-    </div>  
+      <Stuff/>
+    </div>
   );
 }
 
