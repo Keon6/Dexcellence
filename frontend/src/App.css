@@ -1,9 +1,10 @@
 :root {
-  --background-color: #311344;
-  --main-box-shadow-color: #471B61;
-  --main-box-color: #713696;
-  --actioncard-box-color: #5A4698;
-  --actioncard-box-border-color: #362668;
+  --background-color: white;
+  --main-box-shadow-color: #393939;
+  --main-box-color: #2E8461;
+  --actioncard-box-color: #eeeeee;
+  --actioncard-box-border-color: #393939;
+  --text-color: #000000;
 }
 
 .IndexText {
@@ -23,7 +24,8 @@
   background-color: var(--main-box-shadow-color);
   width: 100vw;
   height: 10vh;
-  margin: 0;
+  top: 0;
+  position: absolute;
 }
 
 .App-main-box {
@@ -31,7 +33,9 @@
   min-height: 80vh;
   width: 1100px;
   border-radius: 2vh;
-  position: relative;
+  margin-top: 100px;
+  left: 10px;
+  position: absolute;
   box-shadow: 10px 10px var(--main-box-shadow-color);
 }
 
@@ -49,7 +53,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--text-color);
 }
 
 .App-link {
@@ -67,7 +71,7 @@
 
 .ActionCard-box {
   background-color: var(--actioncard-box-color);
-  width: 90%;
+  width: 98%;
   min-height: 20vh;
   margin: auto;
   border-radius: 1vh;
@@ -79,7 +83,7 @@
   margin: 10px 0 10px 0;
 }
 .ActionCardContainer {
-  width: 90%;
+  width: 95%;
   height: 55vh;
   position: absolute;
   margin-left: 30px;
@@ -92,15 +96,15 @@
 }
 
 .CoinInput-placeholder {
-  color: white;
+  color: var(--text-color);
   text-align: center;
   font-size: 20px;
 }
 .InputItem-dropdown {
-  background-color: var(--main-box-color);
+  background-color: var(--background-color);
   height: 60px;
   width: 100px;
-  color: white;
+  color: var(--text-color);
   padding-left: 2px;
   text-align: left;
   border-radius: 5px;
@@ -122,7 +126,7 @@
   background-color: var(--main-box-color);
   font-size: 20px;
   border-radius: 3px;
-  border: 3px solid var(--actioncard-box-border-color);
+  border: 3px solid var(--background-color);
 }
 
 .InputItem-Flex {
@@ -156,13 +160,13 @@
   border: 3px solid white;
   background-color: white;
 }
-.Add-action:hover .Submit:hover {
+.Add-action:hover {
   color: white;
   background-color: var(--main-box-color);
   border: 3px solid white;
   border-color: white;
 }
-.Add-action:active .Submit:active {
+.Add-action:active {
   font-weight: bolder;
   color: white;
   background-color: var(--main-box-shadow-color);
