@@ -1,0 +1,53 @@
+/* @import url(../App.css); */
+
+.portfolio-box {
+    color: white;
+    background-color: var(--main-box-shadow-color);
+    min-height: 80vh;
+    width: 500px;
+    border-radius: 2vh;
+    margin-top: 100px;
+    margin-left: 20px;
+    right: 20px;
+    position: absolute;
+    box-shadow: 10px 10px var(--main-box-color);
+  }
+
+.portfolio-info {
+    height: 55vh;
+    width: 90%;
+    border-top: 1px solid white;
+    margin: auto;
+    display: grid;
+}
+.assets-header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    text-decoration: underline;
+    height: 40px;
+}
+.balance-header {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    text-decoration: underline;
+    height: 40px;
+}
+.assets {
+    padding: 0;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    text-align: center;
+    margin: 0;
+}
+.balances {
+    padding: 0;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    text-align: center;
+    margin: 0;
+}
+.asset-li {
+    display: block;
+    margin: 10px;
+}
+
