@@ -16,7 +16,9 @@ class BaseEnum(IntEnum):
 
 
 class StrictModel(BaseModel, extra='forbid'):
-    pass
+    @classmethod
+    def fields(cls) -> list[str]:
+        return list(cls.__fields__.keys())
 
 
 class LimitOrder(StrictModel):

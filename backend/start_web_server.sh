@@ -1,2 +1,2 @@
 #!/bin/bash
-# uvicorn auction_engine.web_server:APP
+cd /code && python -m run_web_server

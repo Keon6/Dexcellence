@@ -47,6 +47,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         }
         order_book = pd.DataFrame.from_records(
             data=[order.dict() for order in self.orders],
+            columns=LimitOrder.fields()
         )
         standard_pair = f'{self.from_token}/{self.to_token}'
         order_book['pair'] = (
