@@ -9,73 +9,56 @@ function Swap(props) {
     { value: 'sol', label: 'SOL' },
   ]
 
-  const [order, setOrder] = useState([
-    {
-      'index' : 0,
-      'action' : 'Buy',
-      'coin' : 'eth',
-      'mmp' : 0,
-      'ttxa' : 0,
-    }
-  ]);
-
-  const updateOrder = (field, value) => {
-    const newOrder = order;
-    newOrder[field] = value;
-    setOrder(newOrder);
-  }
+  const [action, setAction] = useState('Buy');
+  const [coin, setCoin] = useState('ETH');
+  const [mmp, setMmp] = useState(0);
+  const [ttxa, setTtxa] = useState(0);
 
   return (
-    <div className="App-main-box">
+    <div className="Swap-main-box">
         <p className="Actions">Make a Swap</p>
         <div className = "Swapbox">
-                <div className = "ActionCard-spacer"></div>
-                <div className = "ActionCard-spacer"></div>
                 {/*Input the action (buy/sell)*/}
-                <div className = "InputItem-flex">
+                <div className = "SwapInputItem-flex SwapAction">
                     <select 
-                        value={order.action} 
-                        onChange={e => updateOrder('action', e.target.value)} 
-                        className = "InputItem-dropdown">
-                        <option value="Buy">Buy</option>
-                        <option value="Sell">Sell</option>
+                        value={action} 
+                        onChange={e => setAction(e.target.value)} 
+                        className = "SwapInputItem-dropdown">
+                        <option value='Buy'>Buy</option>
+                        <option value='Sell'>Sell</option>
                     </select>
-                    <p className = "InputItem-text">Action</p>
+                    <p className = "SwapInputItem-text">Action</p>
                 </div>
-                <div className = "ActionCard-spacer"></div>
                 {/*Input the coin*/}
-                <div className = "InputItem-flex">
+                <div className = "SwapInputItem-flex SwapCoin">
                     <select
-                    value = {order.coin}
+                    value = {coin}
                     placeholder = 'ETH'
                     color = 'white'
-                    onChange = {e => updateOrder('coin', e.target.value)}
-                    className = "InputItem-dropdown"
+                    onChange = {e => setCoin(e.target.value)}
+                    className = "SwapInputItem-dropdown"
                     >
                     <option value="ETH">ETH</option>
                     <option value="BTC">BTC</option>
                     <option value="SOL">SOL</option>
                     </select>
-                    <p className = "InputItem-text">Coin</p>
+                    <p className = "SwapInputItem-text">Coin</p>
                 </div>
-                <div className = "ActionCard-spacer"></div>
                 {/*Input the max/min price*/}
-                <div className = "InputItem-flex">
-                    <input className = "PriceInput" type="text" value={order.mmp}
-                    onChange={(e) => updateOrder('mmp', e.target.value)}></input>
-                    <p className = "InputItem-text">
-                    {order.action == 'Buy' ? 'Max coin buy price' : 'Min coin sell price'}
+                <div className = "SwapInputItem-flex SwapMmp">
+                    <input className = "SwapPriceInput" type="text" value={mmp}
+                    onChange={(e) => setMmp(e.target.value)}></input>
+                    <p className = "SwapInputItem-text">
+                    {action == 'Buy' ? 'Max coin buy price' : 'Min coin sell price' }
                     </p>
                 </div>
-                <div className = "ActionCard-spacer"></div>
-                <div className = "InputItem-flex">
-                    <input className = "PriceInput" type="text" value={order.ttxa}
-                    onChange={(e) => updateOrder('ttxa', e.target.value)}></input>
-                    <p className = "InputItem-text">Total tx amount</p>
+                <div className = "SwapInputItem-flex SwapTtxa">
+                    <input className = "SwapPriceInput" type="text" value={ttxa}
+                    onChange={(e) => setTtxa(e.target.value)}></input>
+                    <p className = "SwapInputItem-text">Total tx amount</p>
                 </div>
-                <div className = "ActionCard-spacer"></div>
+                <button className = "SwapSubmit" onClick={()=>console.log("Submit")}>Submit</button>
             </div>
-        <button className = "Submit" onClick={console.log("Submit")}>Submit</button>
     </div>
   );
 }
