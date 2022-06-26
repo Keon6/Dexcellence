@@ -13,6 +13,9 @@
     margin-top: 1.5%;
     left: 0;
 }
+.Navbar-header::first-letter {
+    color: white;
+}
 li {
     display: inline;
 }
