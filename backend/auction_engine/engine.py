@@ -42,9 +42,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
 
     def get_order_book(self) -> pd.DataFrame:
         logging.info('Compiling order book data')
-        self.orders_by_id = {
-            order.order_id: order for order in self.orders
-        }
+        self.orders_by_id = {order.order_id: order for order in self.orders}
         order_book = pd.DataFrame.from_records(
             data=[order.dict() for order in self.orders],
             columns=LimitOrder.fields()
@@ -65,14 +63,41 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         order_book['standard_pair'] = standard_pair
         order_book['standard_amount'] = order_book['from_token_amount']
         order_book['side'] = order_book['pair'].map({standard_pair: 'BUY'}).fillna('SELL')
+
+        # Determine the subset of marketable orders
+        fltr_buys = order_book['side'].eq('BUY')
+        fltr_sells = order_book['side'].eq('SELL')
+        max_buy = order_book.loc[fltr_buys, 'standard_rate_upper_limit'].max()
+        min_sell = order_book.loc[fltr_sells, 'standard_rate_upper_limit'].abs().min()
+
+        fltr_marketable = (
+            (order_book['standard_rate_upper_limit'].ge(min_sell) & fltr_buys)
+            | (order_book['standard_rate_upper_limit'].abs().le(max_buy) & fltr_sells)
+        )
+
+        order_book['marketable'] = False
+        order_book.loc[fltr_marketable, 'marketable'] = True
+
         return order_book
+
+    def exclude_non_marketable_orders(
+        self, order_book: pd.DataFrame,
+    ) -> pd.DataFrame:
+        return order_book.loc[order_book['marketable']].copy()
 
     def plot_order_book(
         self,
         reference_rate: float | None = None,
         clearing_rate: float | None = None,
+        marketable_only: bool = False,
     ) -> Line2D:
         order_book = self.get_order_book()
+
+        if marketable_only:
+            plot_data = self.exclude_non_marketable_orders(order_book)
+        else:
+            plot_data = order_book.copy()
+
         col_map = {
             'standard_amount': 'amount',
             'side': 'side',
@@ -98,6 +123,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
 
     @staticmethod
     def get_optimization_problem(order_book: pd.DataFrame) -> cp.Problem:
+        """Initialize and return the optimization problem object"""
         logging.info('Constructing optimization problem')
         # Optimization problem
         side = order_book['side'].map({'BUY': 1, 'SELL': -1}).values
@@ -127,6 +153,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         optimal_fills: pd.Series,
         clearing_rate: Decimal,
     ) -> pd.DataFrame:
+        """Update the order book with the fills determined via the auction"""
         logging.info('Updating the order book')
 
         order_book['optimal_fill'] = optimal_fills
@@ -178,7 +205,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
 
     def run(self) -> AuctionResult:
         logging.info('Starting auction')
-        order_book = self.get_order_book()
+        order_book = self.get_order_book().pipe(self.exclude_non_marketable_orders)
         opt_problem: cp.Problem = self.get_optimization_problem(order_book)
 
         logging.info('Optimizing')
