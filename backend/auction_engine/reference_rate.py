@@ -8,6 +8,13 @@ from typing import Any
 import pandas as pd
 from pydantic import BaseModel, Field
 
+import asyncio
+import ccxt
+import ccxt.async_support as ccxta 
+
+# TODO: use cctx for BBO-like reference & comapre with one_inch time
+
+
 API_BASE_URL = 'https://api.1inch.exchange'
 API_ENDPOINTS = dict(
     swap = "swap",
@@ -136,6 +143,43 @@ class OneInchExchange(BaseModel):
         decimal = self.tokens[token_symbol].decimals
         return Decimal(amount) / Decimal(10**decimal)
 
+class CCXT(BaseModel):  # TODO: not exactly sure what this needs to support but let's write some functions
+    """
+    Supports wrapper functions to query CCXT data
+    """
+    def __init__(self):
+        pass
+
+    async def get_orderbook(self, exchange_id, symbol, depth):
+        exchange = getattr(ccxt, exchange_id)()
+        orderbook = {}
+        try:
+            await exchange.load_markets()
+            # exchange.verbose = True  # uncomment for debugging purposes
+            orderbook = await exchange.fetch_order_book(symbol) # TODO limit size depends per exchange...
+        except Exception as e:
+            print(type(e).__name__, str(e))
+        await exchange.close()
+        return exchange.extend(orderbook, {
+            'exchange_id': exchange_id,
+            'symbol': symbol,
+        })
+
+    async def get_multi_orderbook(self, exchange_ids, symbol, depth):
+        coroutines = [self.get_orderbook(exchange_id, symbol, depth) for exchange_id in exchange_ids]
+        return await asyncio.gather(*coroutines)
+
+    def calculate_BBO(self, from_token: str, to_token: str, exchanges: list):
+        asset_pair = from_token + "/" + to_token
+        main = self.get_multi_orderbook(exchange_ids=exchanges, symbol=asset_pair, depth=1)
+        top_of_orderbook = asyncio.run(main)
+
+        best_bid, best_offer = 0, float("inf")
+
+        for exchange_top_of_orderbook in top_of_orderbook:
+            best_bid = max(exchange_top_of_orderbook['bids'][0][0], best_bid)
+            best_offer = min(exchange_top_of_orderbook['asks'][0][0], best_offer)
+        return {"BB" : best_bid, "BO" : best_offer}        
 
 class ReferenceRate(BaseModel):
     from_token: str
@@ -147,30 +191,56 @@ class ReferenceRate(BaseModel):
     def __repr__(self) -> str:
         return f'ReferenceRate({self.rate} {self.to_token}/{self.from_token})'
 
-API = OneInchExchange()
-API.initialize()
+# TODO where to move these once CCT
+
 
 
 def get_reference_rate(
+    source: str, 
     from_token: str,
     to_token: str,
     amount: int = 1,
 ) -> ReferenceRate:
-    quote = API.get_quote(from_token, to_token, amount)
-    from_decimal = API.convert_amount_to_decimal(
-        token_symbol=from_token,
-        amount=quote.from_token_amount,
-    )
-    to_decimal = API.convert_amount_to_decimal(
-        token_symbol=to_token,
-        amount=quote.to_token_amount,
-    )
 
-    return ReferenceRate(
-        from_token=from_token,
-        to_token=to_token,
-        amount=amount,
-        rate=to_decimal / from_decimal,
-        quote=quote,
-    )
+    if source == "1inch":
+        API = OneInchExchange()
+        API.initialize()
+        quote = API.get_quote(from_token, to_token, amount)
+        from_decimal = API.convert_amount_to_decimal(
+            token_symbol=from_token,
+            amount=quote.from_token_amount,
+        )
+        to_decimal = API.convert_amount_to_decimal(
+            token_symbol=to_token,
+            amount=quote.to_token_amount,
+        )
+
+        return ReferenceRate(
+            from_token=from_token,
+            to_token=to_token,
+            amount=amount,
+            rate=to_decimal / from_decimal,
+            quote=quote,
+        )
+    
+    elif source == "CCXT":
+        exchanges = ["ftx", "coinbase"] # TODO make this customizeable/ dynamic eventually 
+        BBO = calculate_BBO(from_token, to_token, exchanges)
+
+        best_bid = ReferenceRate(
+            from_token=from_token,
+            to_token=to_token,
+            amount=BBO["BB"],
+            rate=to_decimal / from_decimal,
+            quote=quote,
+        )
+        best_offer = ReferenceRate(
+            from_token=from_token,
+            to_token=to_token,
+            amount=BBO["BO"],
+            rate=to_decimal / from_decimal,
+            quote=quote,
+        )
+
+        return best_bid, best_offer
     
