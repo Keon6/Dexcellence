@@ -11,7 +11,7 @@ import pandas as pd
 from matplotlib.lines import Line2D
 from pydantic import Field
 
-from auction_engine import one_inch
+from auction_engine import reference_rate
 from auction_engine.schemas import LimitOrder, StrictModel, Transaction, OrderStateEnum
 
 
@@ -211,14 +211,25 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         logging.info('Optimizing')
         opt_problem.solve()
 
-        reference_rate = one_inch.get_reference_rate(self.from_token, self.to_token)
+        # TODO: Compare 1 inch vs BBO-like
         clearing_rate = opt_problem.constraints[0].dual_value
-        logging.info(f'Validating clearing_rate {clearing_rate} with 1inch')
 
-        if clearing_rate > reference_rate.rate * (1 + self.reference_rate_tolerance):
-            raise ValueError(f'Clearing rate {clearing_rate} is >1% above ref rate {reference_rate}')
-        if clearing_rate < reference_rate.rate * (1 - self.reference_rate_tolerance):
-            raise ValueError(f'Clearing rate {clearing_rate} is >1% below ref rate {reference_rate}')
+#         reference_rate = reference_rate.get_reference_rate("one_inch", self.from_token, self.to_token) # 1inch reference rate
+#         logging.info(f'Validating clearing_rate {clearing_rate} with 1inch')
+
+#         if clearing_rate > reference_rate.rate * (1 + self.reference_rate_tolerance):
+#             raise ValueError(f'Clearing rate {clearing_rate} is >1% above ref rate {reference_rate}')
+#         if clearing_rate < reference_rate.rate * (1 - self.reference_rate_tolerance):
+#             raise ValueError(f'Clearing rate {clearing_rate} is >1% below ref rate {reference_rate}')
+
+        # BBO-like
+        best_bid, best_offer = reference_rate.get_reference_rate("CCTX", self.from_token, self.to_token) # BBO reference rate using CCTX
+        logging.info(f'Validating clearing_rate {clearing_rate} with CCTX')
+
+        if clearing_rate > best_offer:
+            raise ValueError(f'Clearing rate {clearing_rate} is above the best offer {best_offer}')
+        if clearing_rate < best_bid:
+            raise ValueError(f'Clearing rate {clearing_rate} is below the best bid {best_bid}')
 
         self.update_order_book(
             order_book,
