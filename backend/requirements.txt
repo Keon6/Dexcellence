@@ -1,4 +1,10 @@
+cvxpy
 fastapi
+matplotlib
 pandas
 pydantic
 pytest
+requests
+sqlalchemy
+typer
+uvicorn[standard]

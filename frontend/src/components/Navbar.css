@@ -1,0 +1,77 @@
+.topnav {
+    position: absolute;
+    display: inline-block;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    min-height: 100px;
+    background-color: #2E8461;
+}
+.Navbar-header {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    left: 0;
+}
+.Navbar-header::first-letter {
+    color: white;
+}
+li {
+    display: inline;
+}
+li a {
+    color:white;
+    margin-left: 1em;
+    cursor: pointer; 
+}
+
+.connectButton {
+    bottom: 10px;
+    right: 10px;
+    height: 7vh;
+    width: 7vw;
+    position: absolute;
+    color: var(--main-box-color);
+    border-radius: 3px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: white;
+}
+.connectButton:hover {
+    color: white;
+    background-color: var(--main-box-color);
+    border: 3px solid white;
+    border-color: white;
+}
+.connectButton:active {
+    font-weight: bolder;
+    color: white;
+    background-color: var(--main-box-shadow-color);
+    border: 3px solid white;
+}
+
+.navElements {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #ad03fc;
+}
+.dropdown-content li {
+    font: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+.navElements li a:hover {
+    font-size: 32px;
+}

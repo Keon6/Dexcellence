@@ -66,3 +66,4 @@ for asset in assets:
     assert sold_2heaps == sold_iteration
     assert bought_2heaps == bought_iteration
 
+

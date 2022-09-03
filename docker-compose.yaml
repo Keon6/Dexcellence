@@ -5,20 +5,26 @@ services:
     build:
       context: .
       dockerfile: backend/auction_engine.dockerfile
-<<<<<<< HEAD
-  oms:
+    volumes:
+      - ./backend:/code
+    tty: true
+    entrypoint: ["sh", "start_engine.sh"]
+  auction_webserver:
     build:
       context: .
-      dockerfile: frontend/oms.dockerfile
+      dockerfile: backend/auction_engine.dockerfile
+    volumes:
+      - ./backend:/code
+    tty: true
+    ports:
+      - "8000:8000"
+    entrypoint: ["sh", "start_web_server.sh"]
+  oms:
+    build:
+      context: ./frontend
+      dockerfile: oms.dockerfile
     container_name: oms_container
     ports:
       - '3000:3000'
     stdin_open: true
     tty: true
-
-  
-=======
-    volumes:
-      - ./backend:/code
-    tty: true
->>>>>>> 0daf1525e6afbc0fa924faf0ff23552cd9b6411a

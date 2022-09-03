@@ -1,9 +1,14 @@
 :root {
-  --background-color: #311344;
-  --main-box-shadow-color: #471B61;
-  --main-box-color: #713696;
-  --actioncard-box-color: #5A4698;
-  --actioncard-box-border-color: #362668;
+  --background-color: white;
+  --main-box-shadow-color: #393939;
+  --main-box-color: #2E8461;
+  --actioncard-box-color: #eeeeee;
+  --actioncard-box-border-color: #393939;
+  --text-color: #000000;
+}
+
+.IndexText {
+  font-weight: bold;
 }
 
 .App {
@@ -19,15 +24,18 @@
   background-color: var(--main-box-shadow-color);
   width: 100vw;
   height: 10vh;
-  margin: 0;
+  top: 0;
+  position: absolute;
 }
 
 .App-main-box {
   background-color: var(--main-box-color);
-  min-height: 60vh;
-  width: 900px;
+  min-height: 80vh;
+  width: 1100px;
   border-radius: 2vh;
-  position: relative;
+  margin-top: 100px;
+  left: 10px;
+  position: absolute;
   box-shadow: 10px 10px var(--main-box-shadow-color);
 }
 
@@ -45,7 +53,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--text-color);
 }
 
 .App-link {
@@ -63,7 +71,7 @@
 
 .ActionCard-box {
   background-color: var(--actioncard-box-color);
-  width: 90%;
+  width: 98%;
   min-height: 20vh;
   margin: auto;
   border-radius: 1vh;
@@ -72,23 +80,33 @@
   position: relative;
   justify-content: flex-start;
   align-items: center;
+  margin: 10px 0 10px 0;
+}
+.ActionCardContainer {
+  width: 95%;
+  height: 55vh;
+  position: absolute;
+  margin-left: 30px;
+  overflow-y: scroll;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 .ActionCard-spacer {
   width: 5%;
 }
 
 .CoinInput-placeholder {
-  color: white;
+  color: var(--text-color);
   text-align: center;
   font-size: 20px;
 }
 .InputItem-dropdown {
-  background-color: var(--main-box-color);
+  background-color: var(--background-color);
   height: 60px;
   width: 100px;
-  color: white;
+  color: var(--text-color);
   padding-left: 2px;
-  text-align: left;
+  text-align: center;
   border-radius: 5px;
   border: 1px solid white;
   font-size: 20px;
@@ -108,7 +126,7 @@
   background-color: var(--main-box-color);
   font-size: 20px;
   border-radius: 3px;
-  border: 3px solid var(--actioncard-box-border-color);
+  border: 3px solid var(--background-color);
 }
 
 .InputItem-Flex {
@@ -122,6 +140,7 @@
   margin: 0;
   width: 100px;
   font-size: 20px;
+  text-align: center;
 }
 .InputItem-text {
   margin: 0;
@@ -154,6 +173,32 @@
   background-color: var(--main-box-shadow-color);
   border: 3px solid white;
 }
+.Submit {
+  bottom: 10px;
+  left: 10px;
+  height: 7vh;
+  width: 7vw;
+  position: absolute;
+  color: var(--main-box-color);
+  border-radius: 3px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color: white;
+}
+.Submit:hover {
+  color: white;
+  background-color: var(--main-box-color);
+  border: 3px solid white;
+  border-color: white;
+}
+.Submit:active {
+  font-weight: bolder;
+  color: white;
+  background-color: var(--main-box-shadow-color);
+  border: 3px solid white;
+}
 .DeleteButton {
   padding: 0;
   height: 50px;
@@ -162,6 +207,7 @@
   background-blend-mode: screen;
   border: 0;
   position: absolute;
+  right: 0;
   margin: 0 30px 0 0;
 }
 .DeleteButtonImage {
