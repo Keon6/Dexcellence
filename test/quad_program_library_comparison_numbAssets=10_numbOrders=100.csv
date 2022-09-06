@@ -1,0 +1,17 @@
+,Package,Solver,Time,Error
+0,cvxpy,OSQP,0.30499863624572754,
+1,cvxpy,ECOS,0.07899999618530273,
+2,cvxpy,GLOP,,The solver GLOP is not installed.
+3,cvxpy,MOSEK,,The solver MOSEK is not installed.
+4,cvxpy,CBC,,The solver CBC is not installed.
+5,cvxpy,CVXOPT,0.41900014877319336,
+6,cvxpy,NAG,,The solver NAG is not installed.
+7,cvxpy,PDLP,,The solver PDLP is not installed.
+8,cvxpy,GUROBI,,The solver GUROBI is not installed.
+9,cvxpy,SCS,0.1959843635559082,
+10,cvxopt,,0.013999700546264648,
+11,qpsolver,osqp,0.0020003318786621094,
+12,qpsolver,ecos,0.006018400192260742,
+13,qpsolver,cvxopt,0.015000343322753906,
+14,qpsolver,scs,0.002996683120727539,
+15,qpsolver,quadprog,0.0029985904693603516,

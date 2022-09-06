@@ -12,8 +12,8 @@ from time import time
 
 # TODO: Python numeric approx, would it be an issue?
 
-N = 10  # of assets
-I = 50000 # of orders
+N = 10 # of assets
+I = 5000 # of orders
 
 
 def orders_to_portfolio_order(W, low_prices, high_prices):
@@ -42,7 +42,7 @@ def order_to_quadratic_program(W: np.array, p_l: np.array, p_h: np.array, q: np.
     i = len(W)  # number of orders
     D = np.diag(np.divide(p_h - p_l, q))
     G = np.identity(n)
-
+    # print(D.shape, G.shape, p_h.shape, W.shape, q.shape)
     if package == "cvxpy":
         x = cp.Variable(n)
         objective = cp.Maximize(x @ p_h - (1/2) * cp.quad_form(x, D))
@@ -98,7 +98,7 @@ def main():
 
     np.random.seed(120)
     # 5 assets & 10 orders
-    W = 2*np.random.random((N, I)) - 1  # we can normalzie this or not, that's our choice
+    W = 2*np.random.random((N, I)) # we can normalzie this or not, that's our choice
     low_prices = 2000*np.random.random((N, I)) - 1000
     high_prices = low_prices + 5*np.random.random((N, I))
     p_l, p_h = orders_to_portfolio_order(W, low_prices, high_prices)
@@ -122,7 +122,7 @@ def main():
                     df_res = df_res.append({"Package": package, "Solver": solver, "Time": time()-st, "Error": None}, ignore_index=True)
                     # print("Package:", package, "& Solver:", str(solver), "| Time: ", time()-st)
                     if package == "cvxpy":
-                        print(package, solver, x.value)
+                        print(package, solver, x)
                     elif package == "qpsolver":
                         print(package, solver, x)
 
@@ -146,11 +146,11 @@ def main():
     # print(df_res)
     df_res.to_csv("quad_program_library_comparison_numbAssets={}_numbOrders={}.csv".format(N, I))
 
-    x1 = order_to_quadratic_program(W=W, p_l=p_l, p_h=p_h, q=q, package="qpsolver", solver="quadprog")
-    x2 = order_to_quadratic_program(W=W/200, p_l=p_l, p_h=p_h, q=q, package="qpsolver", solver="quadprog")
-    a = (x1 - x2)
-    print(a)
-    print(sum(a))
+    # x1 = order_to_quadratic_program(W=W, p_l=p_l, p_h=p_h, q=q, package="qpsolver", solver="quadprog")
+    # x2 = order_to_quadratic_program(W=W/200, p_l=p_l, p_h=p_h, q=q, package="qpsolver", solver="quadprog")
+    # a = (x1 - x2)
+    # print(a)
+    # print(sum(a))
     # portfolio_to_asset(x, W, p_l, p_h)
 
 main()
