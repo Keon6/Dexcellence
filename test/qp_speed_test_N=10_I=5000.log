@@ -1,0 +1,600 @@
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)
+/Users/keonshikkim/Desktop/Dexcellence/test/qp_speed_test.py:145: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_res = df_res.append(row, ignore_index=True)

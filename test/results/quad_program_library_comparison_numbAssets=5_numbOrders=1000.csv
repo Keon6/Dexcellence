@@ -1,0 +1,1501 @@
+,Package,Solver,Iteration,Time,Error
+0,cvxpy,OSQP,3,2013.0496060848236,
+1,cvxpy,OSQP,60,2012.626631975174,
+2,cvxpy,OSQP,73,2012.6930871009827,
+3,cvxpy,OSQP,84,2012.7137608528137,
+4,cvxpy,OSQP,21,2013.577105998993,
+5,cvxpy,OSQP,74,2013.086681842804,
+6,cvxpy,OSQP,57,2013.2858057022095,
+7,cvxpy,OSQP,44,2013.4750137329102,
+8,cvxpy,OSQP,99,2013.0082619190216,
+9,cvxpy,OSQP,40,2013.5952591896057,
+10,cvxpy,OSQP,55,2013.6493129730225,
+11,cvxpy,OSQP,8,2014.2183148860931,
+12,cvxpy,OSQP,52,2013.7136631011963,
+13,cvxpy,OSQP,92,2013.3965828418732,
+14,cvxpy,OSQP,68,2013.6258549690247,
+15,cvxpy,OSQP,62,2013.8736681938171,
+16,cvxpy,OSQP,72,2013.7510640621185,
+17,cvxpy,OSQP,7,2014.5806241035461,
+18,cvxpy,OSQP,96,2013.687531709671,
+19,cvxpy,OSQP,41,2014.2241649627686,
+20,cvxpy,OSQP,81,2013.974641084671,
+21,cvxpy,OSQP,71,2014.0773947238922,
+22,cvxpy,OSQP,82,2014.0280861854553,
+23,cvxpy,OSQP,91,2014.0324580669403,
+24,cvxpy,OSQP,12,2014.9772980213165,
+25,cvxpy,OSQP,66,2014.4480237960815,
+26,cvxpy,OSQP,23,2014.8709290027618,
+27,cvxpy,OSQP,79,2014.4087798595428,
+28,cvxpy,OSQP,5,2015.2427008152008,
+29,cvxpy,OSQP,4,2015.3154180049896,
+30,cvxpy,OSQP,59,2014.8214299678802,
+31,cvxpy,OSQP,16,2015.401566028595,
+32,cvxpy,OSQP,19,2015.4385831356049,
+33,cvxpy,OSQP,31,2015.3391580581665,
+34,cvxpy,OSQP,87,2014.8047721385956,
+35,cvxpy,OSQP,2,2015.792005777359,
+36,cvxpy,OSQP,80,2014.9971148967743,
+37,cvxpy,OSQP,77,2015.0975270271301,
+38,cvxpy,OSQP,43,2015.5904068946838,
+39,cvxpy,OSQP,14,2016.08212184906,
+40,cvxpy,OSQP,1,2016.2142930030823,
+41,cvxpy,OSQP,11,2016.2047820091248,
+42,cvxpy,OSQP,49,2015.7686231136322,
+43,cvxpy,OSQP,30,2015.9892926216125,
+44,cvxpy,OSQP,15,2016.4780671596527,
+45,cvxpy,OSQP,97,2015.5967388153076,
+46,cvxpy,OSQP,32,2016.29146194458,
+47,cvxpy,OSQP,65,2016.069324016571,
+48,cvxpy,OSQP,54,2016.1944432258606,
+49,cvxpy,OSQP,38,2016.3922758102417,
+50,cvxpy,OSQP,58,2016.3390731811523,
+51,cvxpy,OSQP,94,2015.9942219257355,
+52,cvxpy,OSQP,35,2016.6187088489532,
+53,cvxpy,OSQP,17,2017.0379619598389,
+54,cvxpy,OSQP,86,2016.2897591590881,
+55,cvxpy,OSQP,95,2016.2165050506592,
+56,cvxpy,OSQP,26,2016.9457581043243,
+57,cvxpy,OSQP,28,2017.031171798706,
+58,cvxpy,OSQP,33,2017.0076749324799,
+59,cvxpy,OSQP,45,2016.9352719783783,
+60,cvxpy,OSQP,98,2016.4996130466461,
+61,cvxpy,OSQP,88,2016.7060632705688,
+62,cvxpy,OSQP,10,2017.5969557762146,
+63,cvxpy,OSQP,50,2017.145527124405,
+64,cvxpy,OSQP,42,2017.26304936409,
+65,cvxpy,OSQP,93,2016.9009101390839,
+66,cvxpy,OSQP,53,2017.318008184433,
+67,cvxpy,OSQP,20,2017.9010779857635,
+68,cvxpy,OSQP,25,2017.6940977573395,
+69,cvxpy,OSQP,76,2017.295886039734,
+70,cvxpy,OSQP,37,2017.6834740638733,
+71,cvxpy,OSQP,51,2017.7138078212738,
+72,cvxpy,OSQP,64,2017.6351470947266,
+73,cvxpy,OSQP,67,2017.64954996109,
+74,cvxpy,OSQP,39,2018.062245130539,
+75,cvxpy,OSQP,75,2017.867525100708,
+76,cvxpy,OSQP,48,2018.1841809749603,
+77,cvxpy,OSQP,22,2018.4540469646454,
+78,cvxpy,OSQP,13,2018.7413330078125,
+79,cvxpy,OSQP,47,2018.3322439193726,
+80,cvxpy,OSQP,27,2018.6268000602722,
+81,cvxpy,OSQP,18,2018.9319422245026,
+82,cvxpy,OSQP,46,2018.5940840244293,
+83,cvxpy,OSQP,0,2019.2051930427551,
+84,cvxpy,OSQP,89,2018.3448388576508,
+85,cvxpy,OSQP,78,2018.5183727741241,
+86,cvxpy,OSQP,34,2019.0017158985138,
+87,cvxpy,OSQP,69,2018.8048779964447,
+88,cvxpy,OSQP,56,2018.997542142868,
+89,cvxpy,OSQP,6,2019.5976519584656,
+90,cvxpy,OSQP,9,2019.740653038025,
+91,cvxpy,OSQP,29,2019.4128289222717,
+92,cvxpy,OSQP,61,2019.187344789505,
+93,cvxpy,OSQP,85,2019.047217130661,
+94,cvxpy,OSQP,83,2019.1242759227753,
+95,cvxpy,OSQP,90,2019.0930109024048,
+96,cvxpy,OSQP,63,2019.4761250019073,
+97,cvxpy,OSQP,36,2019.7471809387207,
+98,cvxpy,OSQP,70,2019.508143901825,
+99,cvxpy,OSQP,24,2019.977305173874,
+100,cvxpy,ECOS,87,1998.1094748973846,
+101,cvxpy,ECOS,50,1998.9663879871368,
+102,cvxpy,ECOS,92,1999.1843149662018,
+103,cvxpy,ECOS,19,2000.457690000534,
+104,cvxpy,ECOS,57,2000.5432751178741,
+105,cvxpy,ECOS,67,2000.8827471733093,
+106,cvxpy,ECOS,2,2002.158117055893,
+107,cvxpy,ECOS,16,2002.4276359081268,
+108,cvxpy,ECOS,44,2002.6291408538818,
+109,cvxpy,ECOS,93,2002.9012541770935,
+110,cvxpy,ECOS,13,2004.224349975586,
+111,cvxpy,ECOS,1,2004.8653047084808,
+112,cvxpy,ECOS,26,2005.1152300834656,
+113,cvxpy,ECOS,28,2005.6273338794708,
+114,cvxpy,ECOS,48,2005.9868240356445,
+115,cvxpy,ECOS,52,2006.4534740447998,
+116,cvxpy,ECOS,70,2006.797698020935,
+117,cvxpy,ECOS,64,2007.3952538967133,
+118,cvxpy,ECOS,96,2007.7017891407013,
+119,cvxpy,ECOS,4,2008.9993760585785,
+120,cvxpy,ECOS,45,2009.119870185852,
+121,cvxpy,ECOS,63,2009.435616016388,
+122,cvxpy,ECOS,12,2010.6530272960663,
+123,cvxpy,ECOS,42,2010.7394790649414,
+124,cvxpy,ECOS,69,2010.992503643036,
+125,cvxpy,ECOS,81,2011.3617689609528,
+126,cvxpy,ECOS,36,2012.2670059204102,
+127,cvxpy,ECOS,65,2012.4990239143372,
+128,cvxpy,ECOS,74,2012.9165189266205,
+129,cvxpy,ECOS,15,2014.0926990509033,
+130,cvxpy,ECOS,84,2014.0020911693573,
+131,cvxpy,ECOS,18,2015.1526267528534,
+132,cvxpy,ECOS,33,2015.4770629405975,
+133,cvxpy,ECOS,71,2015.65714097023,
+134,cvxpy,ECOS,68,2016.131355047226,
+135,cvxpy,ECOS,27,2016.9729130268097,
+136,cvxpy,ECOS,61,2017.1701731681824,
+137,cvxpy,ECOS,34,2017.9130799770355,
+138,cvxpy,ECOS,85,2017.9951949119568,
+139,cvxpy,ECOS,29,2018.9590520858765,
+140,cvxpy,ECOS,58,2019.138456106186,
+141,cvxpy,ECOS,24,2019.9871921539307,
+142,cvxpy,ECOS,73,2019.983579158783,
+143,cvxpy,ECOS,0,2021.27330493927,
+144,cvxpy,ECOS,9,2021.7436389923096,
+145,cvxpy,ECOS,37,2021.9473168849945,
+146,cvxpy,ECOS,35,2022.5316197872162,
+147,cvxpy,ECOS,76,2022.739109992981,
+148,cvxpy,ECOS,17,2023.7749259471893,
+149,cvxpy,ECOS,11,2024.3572192192078,
+150,cvxpy,ECOS,99,2024.1216490268707,
+151,cvxpy,ECOS,66,2024.6965839862823,
+152,cvxpy,ECOS,56,2025.3629128932953,
+153,cvxpy,ECOS,78,2025.716449022293,
+154,cvxpy,ECOS,97,2026.1448967456818,
+155,cvxpy,ECOS,47,2026.9593811035156,
+156,cvxpy,ECOS,51,2027.438235759735,
+157,cvxpy,ECOS,43,2027.9998972415924,
+158,cvxpy,ECOS,89,2028.1846430301666,
+159,cvxpy,ECOS,7,2029.4682490825653,
+160,cvxpy,ECOS,55,2029.409754037857,
+161,cvxpy,ECOS,14,2030.47207903862,
+162,cvxpy,ECOS,91,2030.2860140800476,
+163,cvxpy,ECOS,86,2030.7642290592194,
+164,cvxpy,ECOS,25,2031.7223689556122,
+165,cvxpy,ECOS,32,2032.0732591152191,
+166,cvxpy,ECOS,22,2032.6687259674072,
+167,cvxpy,ECOS,77,2032.6778302192688,
+168,cvxpy,ECOS,30,2033.5798437595367,
+169,cvxpy,ECOS,75,2033.6164500713348,
+170,cvxpy,ECOS,49,2034.3082060813904,
+171,cvxpy,ECOS,46,2034.8263638019562,
+172,cvxpy,ECOS,94,2034.9579491615295,
+173,cvxpy,ECOS,95,2035.8329751491547,
+174,cvxpy,ECOS,10,2036.6462059020996,
+175,cvxpy,ECOS,82,2036.9080839157104,
+176,cvxpy,ECOS,20,2037.4659299850464,
+177,cvxpy,ECOS,60,2037.5758509635925,
+178,cvxpy,ECOS,8,2038.693253993988,
+179,cvxpy,ECOS,90,2038.4814867973328,
+180,cvxpy,ECOS,39,2039.2952699661255,
+181,cvxpy,ECOS,41,2039.7595348358154,
+182,cvxpy,ECOS,40,2040.3116450309753,
+183,cvxpy,ECOS,6,2041.2473950386047,
+184,cvxpy,ECOS,80,2041.0218937397003,
+185,cvxpy,ECOS,98,2041.448660850525,
+186,cvxpy,ECOS,88,2042.0766189098358,
+187,cvxpy,ECOS,53,2042.7746741771698,
+188,cvxpy,ECOS,3,2043.831505060196,
+189,cvxpy,ECOS,21,2044.2343530654907,
+190,cvxpy,ECOS,5,2044.9514517784119,
+191,cvxpy,ECOS,38,2045.0593798160553,
+192,cvxpy,ECOS,79,2045.197735786438,
+193,cvxpy,ECOS,54,2045.8817110061646,
+194,cvxpy,ECOS,23,2047.124899148941,
+195,cvxpy,ECOS,31,2047.0513370037079,
+196,cvxpy,ECOS,83,2047.1330370903015,
+197,cvxpy,ECOS,62,2047.7973880767822,
+198,cvxpy,ECOS,72,2048.1772940158844,
+199,cvxpy,ECOS,59,2048.840106010437,
+200,cvxpy,GLOP,18,,The solver GLOP is not installed.
+201,cvxpy,GLOP,43,,The solver GLOP is not installed.
+202,cvxpy,GLOP,0,,The solver GLOP is not installed.
+203,cvxpy,GLOP,30,,The solver GLOP is not installed.
+204,cvxpy,GLOP,27,,The solver GLOP is not installed.
+205,cvxpy,GLOP,5,,The solver GLOP is not installed.
+206,cvxpy,GLOP,10,,The solver GLOP is not installed.
+207,cvxpy,GLOP,12,,The solver GLOP is not installed.
+208,cvxpy,GLOP,52,,The solver GLOP is not installed.
+209,cvxpy,GLOP,7,,The solver GLOP is not installed.
+210,cvxpy,GLOP,55,,The solver GLOP is not installed.
+211,cvxpy,GLOP,33,,The solver GLOP is not installed.
+212,cvxpy,GLOP,38,,The solver GLOP is not installed.
+213,cvxpy,GLOP,34,,The solver GLOP is not installed.
+214,cvxpy,GLOP,49,,The solver GLOP is not installed.
+215,cvxpy,GLOP,41,,The solver GLOP is not installed.
+216,cvxpy,GLOP,51,,The solver GLOP is not installed.
+217,cvxpy,GLOP,8,,The solver GLOP is not installed.
+218,cvxpy,GLOP,39,,The solver GLOP is not installed.
+219,cvxpy,GLOP,21,,The solver GLOP is not installed.
+220,cvxpy,GLOP,61,,The solver GLOP is not installed.
+221,cvxpy,GLOP,36,,The solver GLOP is not installed.
+222,cvxpy,GLOP,60,,The solver GLOP is not installed.
+223,cvxpy,GLOP,58,,The solver GLOP is not installed.
+224,cvxpy,GLOP,48,,The solver GLOP is not installed.
+225,cvxpy,GLOP,17,,The solver GLOP is not installed.
+226,cvxpy,GLOP,56,,The solver GLOP is not installed.
+227,cvxpy,GLOP,42,,The solver GLOP is not installed.
+228,cvxpy,GLOP,22,,The solver GLOP is not installed.
+229,cvxpy,GLOP,31,,The solver GLOP is not installed.
+230,cvxpy,GLOP,47,,The solver GLOP is not installed.
+231,cvxpy,GLOP,65,,The solver GLOP is not installed.
+232,cvxpy,GLOP,54,,The solver GLOP is not installed.
+233,cvxpy,GLOP,4,,The solver GLOP is not installed.
+234,cvxpy,GLOP,45,,The solver GLOP is not installed.
+235,cvxpy,GLOP,69,,The solver GLOP is not installed.
+236,cvxpy,GLOP,29,,The solver GLOP is not installed.
+237,cvxpy,GLOP,26,,The solver GLOP is not installed.
+238,cvxpy,GLOP,3,,The solver GLOP is not installed.
+239,cvxpy,GLOP,19,,The solver GLOP is not installed.
+240,cvxpy,GLOP,6,,The solver GLOP is not installed.
+241,cvxpy,GLOP,15,,The solver GLOP is not installed.
+242,cvxpy,GLOP,67,,The solver GLOP is not installed.
+243,cvxpy,GLOP,35,,The solver GLOP is not installed.
+244,cvxpy,GLOP,2,,The solver GLOP is not installed.
+245,cvxpy,GLOP,83,,The solver GLOP is not installed.
+246,cvxpy,GLOP,20,,The solver GLOP is not installed.
+247,cvxpy,GLOP,14,,The solver GLOP is not installed.
+248,cvxpy,GLOP,32,,The solver GLOP is not installed.
+249,cvxpy,GLOP,1,,The solver GLOP is not installed.
+250,cvxpy,GLOP,44,,The solver GLOP is not installed.
+251,cvxpy,GLOP,25,,The solver GLOP is not installed.
+252,cvxpy,GLOP,37,,The solver GLOP is not installed.
+253,cvxpy,GLOP,28,,The solver GLOP is not installed.
+254,cvxpy,GLOP,13,,The solver GLOP is not installed.
+255,cvxpy,GLOP,9,,The solver GLOP is not installed.
+256,cvxpy,GLOP,11,,The solver GLOP is not installed.
+257,cvxpy,GLOP,46,,The solver GLOP is not installed.
+258,cvxpy,GLOP,59,,The solver GLOP is not installed.
+259,cvxpy,GLOP,57,,The solver GLOP is not installed.
+260,cvxpy,GLOP,16,,The solver GLOP is not installed.
+261,cvxpy,GLOP,53,,The solver GLOP is not installed.
+262,cvxpy,GLOP,24,,The solver GLOP is not installed.
+263,cvxpy,GLOP,40,,The solver GLOP is not installed.
+264,cvxpy,GLOP,23,,The solver GLOP is not installed.
+265,cvxpy,GLOP,50,,The solver GLOP is not installed.
+266,cvxpy,GLOP,63,,The solver GLOP is not installed.
+267,cvxpy,GLOP,68,,The solver GLOP is not installed.
+268,cvxpy,GLOP,64,,The solver GLOP is not installed.
+269,cvxpy,GLOP,77,,The solver GLOP is not installed.
+270,cvxpy,GLOP,73,,The solver GLOP is not installed.
+271,cvxpy,GLOP,62,,The solver GLOP is not installed.
+272,cvxpy,GLOP,75,,The solver GLOP is not installed.
+273,cvxpy,GLOP,84,,The solver GLOP is not installed.
+274,cvxpy,GLOP,87,,The solver GLOP is not installed.
+275,cvxpy,GLOP,74,,The solver GLOP is not installed.
+276,cvxpy,GLOP,70,,The solver GLOP is not installed.
+277,cvxpy,GLOP,66,,The solver GLOP is not installed.
+278,cvxpy,GLOP,72,,The solver GLOP is not installed.
+279,cvxpy,GLOP,79,,The solver GLOP is not installed.
+280,cvxpy,GLOP,76,,The solver GLOP is not installed.
+281,cvxpy,GLOP,90,,The solver GLOP is not installed.
+282,cvxpy,GLOP,82,,The solver GLOP is not installed.
+283,cvxpy,GLOP,88,,The solver GLOP is not installed.
+284,cvxpy,GLOP,93,,The solver GLOP is not installed.
+285,cvxpy,GLOP,71,,The solver GLOP is not installed.
+286,cvxpy,GLOP,85,,The solver GLOP is not installed.
+287,cvxpy,GLOP,89,,The solver GLOP is not installed.
+288,cvxpy,GLOP,81,,The solver GLOP is not installed.
+289,cvxpy,GLOP,96,,The solver GLOP is not installed.
+290,cvxpy,GLOP,91,,The solver GLOP is not installed.
+291,cvxpy,GLOP,97,,The solver GLOP is not installed.
+292,cvxpy,GLOP,95,,The solver GLOP is not installed.
+293,cvxpy,GLOP,86,,The solver GLOP is not installed.
+294,cvxpy,GLOP,92,,The solver GLOP is not installed.
+295,cvxpy,GLOP,80,,The solver GLOP is not installed.
+296,cvxpy,GLOP,78,,The solver GLOP is not installed.
+297,cvxpy,GLOP,98,,The solver GLOP is not installed.
+298,cvxpy,GLOP,94,,The solver GLOP is not installed.
+299,cvxpy,GLOP,99,,The solver GLOP is not installed.
+300,cvxpy,MOSEK,56,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+301,cvxpy,MOSEK,19,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+302,cvxpy,MOSEK,61,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+303,cvxpy,MOSEK,90,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+304,cvxpy,MOSEK,25,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+305,cvxpy,MOSEK,6,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+306,cvxpy,MOSEK,45,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+307,cvxpy,MOSEK,62,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+308,cvxpy,MOSEK,13,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+309,cvxpy,MOSEK,92,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+310,cvxpy,MOSEK,2,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+311,cvxpy,MOSEK,29,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+312,cvxpy,MOSEK,94,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+313,cvxpy,MOSEK,73,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+314,cvxpy,MOSEK,47,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+315,cvxpy,MOSEK,75,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+316,cvxpy,MOSEK,12,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+317,cvxpy,MOSEK,78,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+318,cvxpy,MOSEK,57,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+319,cvxpy,MOSEK,80,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+320,cvxpy,MOSEK,70,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+321,cvxpy,MOSEK,83,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+322,cvxpy,MOSEK,43,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+323,cvxpy,MOSEK,9,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+324,cvxpy,MOSEK,23,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+325,cvxpy,MOSEK,10,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+326,cvxpy,MOSEK,64,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+327,cvxpy,MOSEK,3,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+328,cvxpy,MOSEK,8,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+329,cvxpy,MOSEK,50,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+330,cvxpy,MOSEK,41,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+331,cvxpy,MOSEK,82,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+332,cvxpy,MOSEK,48,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+333,cvxpy,MOSEK,34,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+334,cvxpy,MOSEK,51,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+335,cvxpy,MOSEK,15,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+336,cvxpy,MOSEK,65,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+337,cvxpy,MOSEK,54,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+338,cvxpy,MOSEK,95,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+339,cvxpy,MOSEK,85,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+340,cvxpy,MOSEK,37,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+341,cvxpy,MOSEK,99,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+342,cvxpy,MOSEK,76,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+343,cvxpy,MOSEK,18,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+344,cvxpy,MOSEK,74,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+345,cvxpy,MOSEK,0,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+346,cvxpy,MOSEK,28,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+347,cvxpy,MOSEK,24,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+348,cvxpy,MOSEK,39,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+349,cvxpy,MOSEK,63,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+350,cvxpy,MOSEK,1,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+351,cvxpy,MOSEK,96,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+352,cvxpy,MOSEK,97,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+353,cvxpy,MOSEK,72,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+354,cvxpy,MOSEK,5,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+355,cvxpy,MOSEK,87,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+356,cvxpy,MOSEK,35,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+357,cvxpy,MOSEK,20,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+358,cvxpy,MOSEK,42,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+359,cvxpy,MOSEK,79,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+360,cvxpy,MOSEK,88,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+361,cvxpy,MOSEK,7,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+362,cvxpy,MOSEK,38,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+363,cvxpy,MOSEK,30,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+364,cvxpy,MOSEK,17,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+365,cvxpy,MOSEK,55,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+366,cvxpy,MOSEK,36,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+367,cvxpy,MOSEK,32,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+368,cvxpy,MOSEK,33,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+369,cvxpy,MOSEK,31,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+370,cvxpy,MOSEK,60,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+371,cvxpy,MOSEK,21,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+372,cvxpy,MOSEK,93,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+373,cvxpy,MOSEK,16,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+374,cvxpy,MOSEK,40,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+375,cvxpy,MOSEK,71,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+376,cvxpy,MOSEK,98,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+377,cvxpy,MOSEK,91,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+378,cvxpy,MOSEK,52,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+379,cvxpy,MOSEK,68,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+380,cvxpy,MOSEK,46,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+381,cvxpy,MOSEK,11,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+382,cvxpy,MOSEK,26,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+383,cvxpy,MOSEK,69,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+384,cvxpy,MOSEK,66,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+385,cvxpy,MOSEK,4,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+386,cvxpy,MOSEK,67,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+387,cvxpy,MOSEK,27,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+388,cvxpy,MOSEK,59,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+389,cvxpy,MOSEK,53,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+390,cvxpy,MOSEK,84,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+391,cvxpy,MOSEK,44,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+392,cvxpy,MOSEK,81,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+393,cvxpy,MOSEK,77,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+394,cvxpy,MOSEK,58,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+395,cvxpy,MOSEK,49,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+396,cvxpy,MOSEK,14,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+397,cvxpy,MOSEK,86,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+398,cvxpy,MOSEK,22,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+399,cvxpy,MOSEK,89,,rescode.err_missing_license_file(1008): License cannot be located. The default search path is ':/Users/keonshikkim/mosek/mosek.lic:'.
+400,cvxpy,CBC,3,,The solver CBC is not installed.
+401,cvxpy,CBC,62,,The solver CBC is not installed.
+402,cvxpy,CBC,6,,The solver CBC is not installed.
+403,cvxpy,CBC,42,,The solver CBC is not installed.
+404,cvxpy,CBC,20,,The solver CBC is not installed.
+405,cvxpy,CBC,0,,The solver CBC is not installed.
+406,cvxpy,CBC,17,,The solver CBC is not installed.
+407,cvxpy,CBC,56,,The solver CBC is not installed.
+408,cvxpy,CBC,52,,The solver CBC is not installed.
+409,cvxpy,CBC,12,,The solver CBC is not installed.
+410,cvxpy,CBC,1,,The solver CBC is not installed.
+411,cvxpy,CBC,34,,The solver CBC is not installed.
+412,cvxpy,CBC,44,,The solver CBC is not installed.
+413,cvxpy,CBC,55,,The solver CBC is not installed.
+414,cvxpy,CBC,29,,The solver CBC is not installed.
+415,cvxpy,CBC,4,,The solver CBC is not installed.
+416,cvxpy,CBC,24,,The solver CBC is not installed.
+417,cvxpy,CBC,16,,The solver CBC is not installed.
+418,cvxpy,CBC,40,,The solver CBC is not installed.
+419,cvxpy,CBC,9,,The solver CBC is not installed.
+420,cvxpy,CBC,47,,The solver CBC is not installed.
+421,cvxpy,CBC,33,,The solver CBC is not installed.
+422,cvxpy,CBC,43,,The solver CBC is not installed.
+423,cvxpy,CBC,50,,The solver CBC is not installed.
+424,cvxpy,CBC,23,,The solver CBC is not installed.
+425,cvxpy,CBC,8,,The solver CBC is not installed.
+426,cvxpy,CBC,39,,The solver CBC is not installed.
+427,cvxpy,CBC,5,,The solver CBC is not installed.
+428,cvxpy,CBC,61,,The solver CBC is not installed.
+429,cvxpy,CBC,32,,The solver CBC is not installed.
+430,cvxpy,CBC,19,,The solver CBC is not installed.
+431,cvxpy,CBC,30,,The solver CBC is not installed.
+432,cvxpy,CBC,14,,The solver CBC is not installed.
+433,cvxpy,CBC,66,,The solver CBC is not installed.
+434,cvxpy,CBC,58,,The solver CBC is not installed.
+435,cvxpy,CBC,49,,The solver CBC is not installed.
+436,cvxpy,CBC,38,,The solver CBC is not installed.
+437,cvxpy,CBC,2,,The solver CBC is not installed.
+438,cvxpy,CBC,60,,The solver CBC is not installed.
+439,cvxpy,CBC,31,,The solver CBC is not installed.
+440,cvxpy,CBC,11,,The solver CBC is not installed.
+441,cvxpy,CBC,7,,The solver CBC is not installed.
+442,cvxpy,CBC,15,,The solver CBC is not installed.
+443,cvxpy,CBC,28,,The solver CBC is not installed.
+444,cvxpy,CBC,53,,The solver CBC is not installed.
+445,cvxpy,CBC,26,,The solver CBC is not installed.
+446,cvxpy,CBC,37,,The solver CBC is not installed.
+447,cvxpy,CBC,59,,The solver CBC is not installed.
+448,cvxpy,CBC,18,,The solver CBC is not installed.
+449,cvxpy,CBC,27,,The solver CBC is not installed.
+450,cvxpy,CBC,22,,The solver CBC is not installed.
+451,cvxpy,CBC,64,,The solver CBC is not installed.
+452,cvxpy,CBC,36,,The solver CBC is not installed.
+453,cvxpy,CBC,35,,The solver CBC is not installed.
+454,cvxpy,CBC,45,,The solver CBC is not installed.
+455,cvxpy,CBC,10,,The solver CBC is not installed.
+456,cvxpy,CBC,63,,The solver CBC is not installed.
+457,cvxpy,CBC,21,,The solver CBC is not installed.
+458,cvxpy,CBC,25,,The solver CBC is not installed.
+459,cvxpy,CBC,13,,The solver CBC is not installed.
+460,cvxpy,CBC,57,,The solver CBC is not installed.
+461,cvxpy,CBC,48,,The solver CBC is not installed.
+462,cvxpy,CBC,41,,The solver CBC is not installed.
+463,cvxpy,CBC,65,,The solver CBC is not installed.
+464,cvxpy,CBC,69,,The solver CBC is not installed.
+465,cvxpy,CBC,54,,The solver CBC is not installed.
+466,cvxpy,CBC,46,,The solver CBC is not installed.
+467,cvxpy,CBC,68,,The solver CBC is not installed.
+468,cvxpy,CBC,67,,The solver CBC is not installed.
+469,cvxpy,CBC,70,,The solver CBC is not installed.
+470,cvxpy,CBC,51,,The solver CBC is not installed.
+471,cvxpy,CBC,85,,The solver CBC is not installed.
+472,cvxpy,CBC,83,,The solver CBC is not installed.
+473,cvxpy,CBC,72,,The solver CBC is not installed.
+474,cvxpy,CBC,77,,The solver CBC is not installed.
+475,cvxpy,CBC,76,,The solver CBC is not installed.
+476,cvxpy,CBC,78,,The solver CBC is not installed.
+477,cvxpy,CBC,71,,The solver CBC is not installed.
+478,cvxpy,CBC,92,,The solver CBC is not installed.
+479,cvxpy,CBC,80,,The solver CBC is not installed.
+480,cvxpy,CBC,73,,The solver CBC is not installed.
+481,cvxpy,CBC,89,,The solver CBC is not installed.
+482,cvxpy,CBC,87,,The solver CBC is not installed.
+483,cvxpy,CBC,97,,The solver CBC is not installed.
+484,cvxpy,CBC,81,,The solver CBC is not installed.
+485,cvxpy,CBC,75,,The solver CBC is not installed.
+486,cvxpy,CBC,84,,The solver CBC is not installed.
+487,cvxpy,CBC,79,,The solver CBC is not installed.
+488,cvxpy,CBC,86,,The solver CBC is not installed.
+489,cvxpy,CBC,88,,The solver CBC is not installed.
+490,cvxpy,CBC,74,,The solver CBC is not installed.
+491,cvxpy,CBC,93,,The solver CBC is not installed.
+492,cvxpy,CBC,82,,The solver CBC is not installed.
+493,cvxpy,CBC,99,,The solver CBC is not installed.
+494,cvxpy,CBC,95,,The solver CBC is not installed.
+495,cvxpy,CBC,91,,The solver CBC is not installed.
+496,cvxpy,CBC,90,,The solver CBC is not installed.
+497,cvxpy,CBC,96,,The solver CBC is not installed.
+498,cvxpy,CBC,98,,The solver CBC is not installed.
+499,cvxpy,CBC,94,,The solver CBC is not installed.
+500,cvxpy,CVXOPT,3,,The solver CVXOPT is not installed.
+501,cvxpy,CVXOPT,54,,The solver CVXOPT is not installed.
+502,cvxpy,CVXOPT,45,,The solver CVXOPT is not installed.
+503,cvxpy,CVXOPT,26,,The solver CVXOPT is not installed.
+504,cvxpy,CVXOPT,53,,The solver CVXOPT is not installed.
+505,cvxpy,CVXOPT,59,,The solver CVXOPT is not installed.
+506,cvxpy,CVXOPT,8,,The solver CVXOPT is not installed.
+507,cvxpy,CVXOPT,6,,The solver CVXOPT is not installed.
+508,cvxpy,CVXOPT,21,,The solver CVXOPT is not installed.
+509,cvxpy,CVXOPT,0,,The solver CVXOPT is not installed.
+510,cvxpy,CVXOPT,12,,The solver CVXOPT is not installed.
+511,cvxpy,CVXOPT,58,,The solver CVXOPT is not installed.
+512,cvxpy,CVXOPT,34,,The solver CVXOPT is not installed.
+513,cvxpy,CVXOPT,52,,The solver CVXOPT is not installed.
+514,cvxpy,CVXOPT,4,,The solver CVXOPT is not installed.
+515,cvxpy,CVXOPT,44,,The solver CVXOPT is not installed.
+516,cvxpy,CVXOPT,5,,The solver CVXOPT is not installed.
+517,cvxpy,CVXOPT,17,,The solver CVXOPT is not installed.
+518,cvxpy,CVXOPT,1,,The solver CVXOPT is not installed.
+519,cvxpy,CVXOPT,49,,The solver CVXOPT is not installed.
+520,cvxpy,CVXOPT,35,,The solver CVXOPT is not installed.
+521,cvxpy,CVXOPT,51,,The solver CVXOPT is not installed.
+522,cvxpy,CVXOPT,33,,The solver CVXOPT is not installed.
+523,cvxpy,CVXOPT,57,,The solver CVXOPT is not installed.
+524,cvxpy,CVXOPT,62,,The solver CVXOPT is not installed.
+525,cvxpy,CVXOPT,29,,The solver CVXOPT is not installed.
+526,cvxpy,CVXOPT,16,,The solver CVXOPT is not installed.
+527,cvxpy,CVXOPT,28,,The solver CVXOPT is not installed.
+528,cvxpy,CVXOPT,25,,The solver CVXOPT is not installed.
+529,cvxpy,CVXOPT,20,,The solver CVXOPT is not installed.
+530,cvxpy,CVXOPT,39,,The solver CVXOPT is not installed.
+531,cvxpy,CVXOPT,31,,The solver CVXOPT is not installed.
+532,cvxpy,CVXOPT,50,,The solver CVXOPT is not installed.
+533,cvxpy,CVXOPT,32,,The solver CVXOPT is not installed.
+534,cvxpy,CVXOPT,56,,The solver CVXOPT is not installed.
+535,cvxpy,CVXOPT,9,,The solver CVXOPT is not installed.
+536,cvxpy,CVXOPT,61,,The solver CVXOPT is not installed.
+537,cvxpy,CVXOPT,15,,The solver CVXOPT is not installed.
+538,cvxpy,CVXOPT,13,,The solver CVXOPT is not installed.
+539,cvxpy,CVXOPT,40,,The solver CVXOPT is not installed.
+540,cvxpy,CVXOPT,2,,The solver CVXOPT is not installed.
+541,cvxpy,CVXOPT,11,,The solver CVXOPT is not installed.
+542,cvxpy,CVXOPT,71,,The solver CVXOPT is not installed.
+543,cvxpy,CVXOPT,55,,The solver CVXOPT is not installed.
+544,cvxpy,CVXOPT,43,,The solver CVXOPT is not installed.
+545,cvxpy,CVXOPT,48,,The solver CVXOPT is not installed.
+546,cvxpy,CVXOPT,60,,The solver CVXOPT is not installed.
+547,cvxpy,CVXOPT,42,,The solver CVXOPT is not installed.
+548,cvxpy,CVXOPT,7,,The solver CVXOPT is not installed.
+549,cvxpy,CVXOPT,22,,The solver CVXOPT is not installed.
+550,cvxpy,CVXOPT,24,,The solver CVXOPT is not installed.
+551,cvxpy,CVXOPT,19,,The solver CVXOPT is not installed.
+552,cvxpy,CVXOPT,47,,The solver CVXOPT is not installed.
+553,cvxpy,CVXOPT,38,,The solver CVXOPT is not installed.
+554,cvxpy,CVXOPT,30,,The solver CVXOPT is not installed.
+555,cvxpy,CVXOPT,41,,The solver CVXOPT is not installed.
+556,cvxpy,CVXOPT,18,,The solver CVXOPT is not installed.
+557,cvxpy,CVXOPT,14,,The solver CVXOPT is not installed.
+558,cvxpy,CVXOPT,23,,The solver CVXOPT is not installed.
+559,cvxpy,CVXOPT,36,,The solver CVXOPT is not installed.
+560,cvxpy,CVXOPT,46,,The solver CVXOPT is not installed.
+561,cvxpy,CVXOPT,37,,The solver CVXOPT is not installed.
+562,cvxpy,CVXOPT,27,,The solver CVXOPT is not installed.
+563,cvxpy,CVXOPT,10,,The solver CVXOPT is not installed.
+564,cvxpy,CVXOPT,68,,The solver CVXOPT is not installed.
+565,cvxpy,CVXOPT,65,,The solver CVXOPT is not installed.
+566,cvxpy,CVXOPT,66,,The solver CVXOPT is not installed.
+567,cvxpy,CVXOPT,63,,The solver CVXOPT is not installed.
+568,cvxpy,CVXOPT,69,,The solver CVXOPT is not installed.
+569,cvxpy,CVXOPT,67,,The solver CVXOPT is not installed.
+570,cvxpy,CVXOPT,72,,The solver CVXOPT is not installed.
+571,cvxpy,CVXOPT,84,,The solver CVXOPT is not installed.
+572,cvxpy,CVXOPT,81,,The solver CVXOPT is not installed.
+573,cvxpy,CVXOPT,82,,The solver CVXOPT is not installed.
+574,cvxpy,CVXOPT,75,,The solver CVXOPT is not installed.
+575,cvxpy,CVXOPT,78,,The solver CVXOPT is not installed.
+576,cvxpy,CVXOPT,73,,The solver CVXOPT is not installed.
+577,cvxpy,CVXOPT,85,,The solver CVXOPT is not installed.
+578,cvxpy,CVXOPT,77,,The solver CVXOPT is not installed.
+579,cvxpy,CVXOPT,74,,The solver CVXOPT is not installed.
+580,cvxpy,CVXOPT,64,,The solver CVXOPT is not installed.
+581,cvxpy,CVXOPT,89,,The solver CVXOPT is not installed.
+582,cvxpy,CVXOPT,70,,The solver CVXOPT is not installed.
+583,cvxpy,CVXOPT,76,,The solver CVXOPT is not installed.
+584,cvxpy,CVXOPT,80,,The solver CVXOPT is not installed.
+585,cvxpy,CVXOPT,87,,The solver CVXOPT is not installed.
+586,cvxpy,CVXOPT,90,,The solver CVXOPT is not installed.
+587,cvxpy,CVXOPT,83,,The solver CVXOPT is not installed.
+588,cvxpy,CVXOPT,88,,The solver CVXOPT is not installed.
+589,cvxpy,CVXOPT,92,,The solver CVXOPT is not installed.
+590,cvxpy,CVXOPT,79,,The solver CVXOPT is not installed.
+591,cvxpy,CVXOPT,95,,The solver CVXOPT is not installed.
+592,cvxpy,CVXOPT,94,,The solver CVXOPT is not installed.
+593,cvxpy,CVXOPT,91,,The solver CVXOPT is not installed.
+594,cvxpy,CVXOPT,96,,The solver CVXOPT is not installed.
+595,cvxpy,CVXOPT,86,,The solver CVXOPT is not installed.
+596,cvxpy,CVXOPT,97,,The solver CVXOPT is not installed.
+597,cvxpy,CVXOPT,93,,The solver CVXOPT is not installed.
+598,cvxpy,CVXOPT,98,,The solver CVXOPT is not installed.
+599,cvxpy,CVXOPT,99,,The solver CVXOPT is not installed.
+600,cvxpy,NAG,53,,The solver NAG is not installed.
+601,cvxpy,NAG,51,,The solver NAG is not installed.
+602,cvxpy,NAG,14,,The solver NAG is not installed.
+603,cvxpy,NAG,1,,The solver NAG is not installed.
+604,cvxpy,NAG,39,,The solver NAG is not installed.
+605,cvxpy,NAG,74,,The solver NAG is not installed.
+606,cvxpy,NAG,0,,The solver NAG is not installed.
+607,cvxpy,NAG,50,,The solver NAG is not installed.
+608,cvxpy,NAG,34,,The solver NAG is not installed.
+609,cvxpy,NAG,28,,The solver NAG is not installed.
+610,cvxpy,NAG,4,,The solver NAG is not installed.
+611,cvxpy,NAG,3,,The solver NAG is not installed.
+612,cvxpy,NAG,25,,The solver NAG is not installed.
+613,cvxpy,NAG,38,,The solver NAG is not installed.
+614,cvxpy,NAG,7,,The solver NAG is not installed.
+615,cvxpy,NAG,8,,The solver NAG is not installed.
+616,cvxpy,NAG,49,,The solver NAG is not installed.
+617,cvxpy,NAG,33,,The solver NAG is not installed.
+618,cvxpy,NAG,48,,The solver NAG is not installed.
+619,cvxpy,NAG,59,,The solver NAG is not installed.
+620,cvxpy,NAG,18,,The solver NAG is not installed.
+621,cvxpy,NAG,62,,The solver NAG is not installed.
+622,cvxpy,NAG,37,,The solver NAG is not installed.
+623,cvxpy,NAG,24,,The solver NAG is not installed.
+624,cvxpy,NAG,22,,The solver NAG is not installed.
+625,cvxpy,NAG,32,,The solver NAG is not installed.
+626,cvxpy,NAG,60,,The solver NAG is not installed.
+627,cvxpy,NAG,44,,The solver NAG is not installed.
+628,cvxpy,NAG,10,,The solver NAG is not installed.
+629,cvxpy,NAG,55,,The solver NAG is not installed.
+630,cvxpy,NAG,46,,The solver NAG is not installed.
+631,cvxpy,NAG,36,,The solver NAG is not installed.
+632,cvxpy,NAG,42,,The solver NAG is not installed.
+633,cvxpy,NAG,23,,The solver NAG is not installed.
+634,cvxpy,NAG,31,,The solver NAG is not installed.
+635,cvxpy,NAG,12,,The solver NAG is not installed.
+636,cvxpy,NAG,43,,The solver NAG is not installed.
+637,cvxpy,NAG,27,,The solver NAG is not installed.
+638,cvxpy,NAG,52,,The solver NAG is not installed.
+639,cvxpy,NAG,66,,The solver NAG is not installed.
+640,cvxpy,NAG,47,,The solver NAG is not installed.
+641,cvxpy,NAG,26,,The solver NAG is not installed.
+642,cvxpy,NAG,15,,The solver NAG is not installed.
+643,cvxpy,NAG,63,,The solver NAG is not installed.
+644,cvxpy,NAG,58,,The solver NAG is not installed.
+645,cvxpy,NAG,17,,The solver NAG is not installed.
+646,cvxpy,NAG,61,,The solver NAG is not installed.
+647,cvxpy,NAG,6,,The solver NAG is not installed.
+648,cvxpy,NAG,21,,The solver NAG is not installed.
+649,cvxpy,NAG,35,,The solver NAG is not installed.
+650,cvxpy,NAG,2,,The solver NAG is not installed.
+651,cvxpy,NAG,57,,The solver NAG is not installed.
+652,cvxpy,NAG,16,,The solver NAG is not installed.
+653,cvxpy,NAG,9,,The solver NAG is not installed.
+654,cvxpy,NAG,41,,The solver NAG is not installed.
+655,cvxpy,NAG,20,,The solver NAG is not installed.
+656,cvxpy,NAG,5,,The solver NAG is not installed.
+657,cvxpy,NAG,45,,The solver NAG is not installed.
+658,cvxpy,NAG,30,,The solver NAG is not installed.
+659,cvxpy,NAG,54,,The solver NAG is not installed.
+660,cvxpy,NAG,13,,The solver NAG is not installed.
+661,cvxpy,NAG,56,,The solver NAG is not installed.
+662,cvxpy,NAG,29,,The solver NAG is not installed.
+663,cvxpy,NAG,11,,The solver NAG is not installed.
+664,cvxpy,NAG,40,,The solver NAG is not installed.
+665,cvxpy,NAG,19,,The solver NAG is not installed.
+666,cvxpy,NAG,72,,The solver NAG is not installed.
+667,cvxpy,NAG,64,,The solver NAG is not installed.
+668,cvxpy,NAG,75,,The solver NAG is not installed.
+669,cvxpy,NAG,65,,The solver NAG is not installed.
+670,cvxpy,NAG,67,,The solver NAG is not installed.
+671,cvxpy,NAG,79,,The solver NAG is not installed.
+672,cvxpy,NAG,81,,The solver NAG is not installed.
+673,cvxpy,NAG,76,,The solver NAG is not installed.
+674,cvxpy,NAG,70,,The solver NAG is not installed.
+675,cvxpy,NAG,69,,The solver NAG is not installed.
+676,cvxpy,NAG,85,,The solver NAG is not installed.
+677,cvxpy,NAG,71,,The solver NAG is not installed.
+678,cvxpy,NAG,78,,The solver NAG is not installed.
+679,cvxpy,NAG,82,,The solver NAG is not installed.
+680,cvxpy,NAG,73,,The solver NAG is not installed.
+681,cvxpy,NAG,92,,The solver NAG is not installed.
+682,cvxpy,NAG,91,,The solver NAG is not installed.
+683,cvxpy,NAG,68,,The solver NAG is not installed.
+684,cvxpy,NAG,80,,The solver NAG is not installed.
+685,cvxpy,NAG,83,,The solver NAG is not installed.
+686,cvxpy,NAG,77,,The solver NAG is not installed.
+687,cvxpy,NAG,89,,The solver NAG is not installed.
+688,cvxpy,NAG,90,,The solver NAG is not installed.
+689,cvxpy,NAG,88,,The solver NAG is not installed.
+690,cvxpy,NAG,86,,The solver NAG is not installed.
+691,cvxpy,NAG,96,,The solver NAG is not installed.
+692,cvxpy,NAG,97,,The solver NAG is not installed.
+693,cvxpy,NAG,95,,The solver NAG is not installed.
+694,cvxpy,NAG,84,,The solver NAG is not installed.
+695,cvxpy,NAG,94,,The solver NAG is not installed.
+696,cvxpy,NAG,93,,The solver NAG is not installed.
+697,cvxpy,NAG,99,,The solver NAG is not installed.
+698,cvxpy,NAG,87,,The solver NAG is not installed.
+699,cvxpy,NAG,98,,The solver NAG is not installed.
+700,cvxpy,PDLP,12,,The solver PDLP is not installed.
+701,cvxpy,PDLP,41,,The solver PDLP is not installed.
+702,cvxpy,PDLP,31,,The solver PDLP is not installed.
+703,cvxpy,PDLP,69,,The solver PDLP is not installed.
+704,cvxpy,PDLP,48,,The solver PDLP is not installed.
+705,cvxpy,PDLP,40,,The solver PDLP is not installed.
+706,cvxpy,PDLP,22,,The solver PDLP is not installed.
+707,cvxpy,PDLP,25,,The solver PDLP is not installed.
+708,cvxpy,PDLP,14,,The solver PDLP is not installed.
+709,cvxpy,PDLP,45,,The solver PDLP is not installed.
+710,cvxpy,PDLP,33,,The solver PDLP is not installed.
+711,cvxpy,PDLP,9,,The solver PDLP is not installed.
+712,cvxpy,PDLP,6,,The solver PDLP is not installed.
+713,cvxpy,PDLP,17,,The solver PDLP is not installed.
+714,cvxpy,PDLP,52,,The solver PDLP is not installed.
+715,cvxpy,PDLP,39,,The solver PDLP is not installed.
+716,cvxpy,PDLP,24,,The solver PDLP is not installed.
+717,cvxpy,PDLP,18,,The solver PDLP is not installed.
+718,cvxpy,PDLP,29,,The solver PDLP is not installed.
+719,cvxpy,PDLP,72,,The solver PDLP is not installed.
+720,cvxpy,PDLP,13,,The solver PDLP is not installed.
+721,cvxpy,PDLP,5,,The solver PDLP is not installed.
+722,cvxpy,PDLP,23,,The solver PDLP is not installed.
+723,cvxpy,PDLP,61,,The solver PDLP is not installed.
+724,cvxpy,PDLP,55,,The solver PDLP is not installed.
+725,cvxpy,PDLP,38,,The solver PDLP is not installed.
+726,cvxpy,PDLP,37,,The solver PDLP is not installed.
+727,cvxpy,PDLP,16,,The solver PDLP is not installed.
+728,cvxpy,PDLP,28,,The solver PDLP is not installed.
+729,cvxpy,PDLP,11,,The solver PDLP is not installed.
+730,cvxpy,PDLP,2,,The solver PDLP is not installed.
+731,cvxpy,PDLP,64,,The solver PDLP is not installed.
+732,cvxpy,PDLP,60,,The solver PDLP is not installed.
+733,cvxpy,PDLP,47,,The solver PDLP is not installed.
+734,cvxpy,PDLP,62,,The solver PDLP is not installed.
+735,cvxpy,PDLP,21,,The solver PDLP is not installed.
+736,cvxpy,PDLP,27,,The solver PDLP is not installed.
+737,cvxpy,PDLP,4,,The solver PDLP is not installed.
+738,cvxpy,PDLP,44,,The solver PDLP is not installed.
+739,cvxpy,PDLP,32,,The solver PDLP is not installed.
+740,cvxpy,PDLP,7,,The solver PDLP is not installed.
+741,cvxpy,PDLP,63,,The solver PDLP is not installed.
+742,cvxpy,PDLP,59,,The solver PDLP is not installed.
+743,cvxpy,PDLP,46,,The solver PDLP is not installed.
+744,cvxpy,PDLP,51,,The solver PDLP is not installed.
+745,cvxpy,PDLP,20,,The solver PDLP is not installed.
+746,cvxpy,PDLP,19,,The solver PDLP is not installed.
+747,cvxpy,PDLP,42,,The solver PDLP is not installed.
+748,cvxpy,PDLP,8,,The solver PDLP is not installed.
+749,cvxpy,PDLP,3,,The solver PDLP is not installed.
+750,cvxpy,PDLP,43,,The solver PDLP is not installed.
+751,cvxpy,PDLP,1,,The solver PDLP is not installed.
+752,cvxpy,PDLP,58,,The solver PDLP is not installed.
+753,cvxpy,PDLP,50,,The solver PDLP is not installed.
+754,cvxpy,PDLP,26,,The solver PDLP is not installed.
+755,cvxpy,PDLP,36,,The solver PDLP is not installed.
+756,cvxpy,PDLP,0,,The solver PDLP is not installed.
+757,cvxpy,PDLP,15,,The solver PDLP is not installed.
+758,cvxpy,PDLP,54,,The solver PDLP is not installed.
+759,cvxpy,PDLP,10,,The solver PDLP is not installed.
+760,cvxpy,PDLP,34,,The solver PDLP is not installed.
+761,cvxpy,PDLP,57,,The solver PDLP is not installed.
+762,cvxpy,PDLP,35,,The solver PDLP is not installed.
+763,cvxpy,PDLP,49,,The solver PDLP is not installed.
+764,cvxpy,PDLP,30,,The solver PDLP is not installed.
+765,cvxpy,PDLP,53,,The solver PDLP is not installed.
+766,cvxpy,PDLP,74,,The solver PDLP is not installed.
+767,cvxpy,PDLP,78,,The solver PDLP is not installed.
+768,cvxpy,PDLP,68,,The solver PDLP is not installed.
+769,cvxpy,PDLP,80,,The solver PDLP is not installed.
+770,cvxpy,PDLP,87,,The solver PDLP is not installed.
+771,cvxpy,PDLP,66,,The solver PDLP is not installed.
+772,cvxpy,PDLP,73,,The solver PDLP is not installed.
+773,cvxpy,PDLP,71,,The solver PDLP is not installed.
+774,cvxpy,PDLP,67,,The solver PDLP is not installed.
+775,cvxpy,PDLP,70,,The solver PDLP is not installed.
+776,cvxpy,PDLP,75,,The solver PDLP is not installed.
+777,cvxpy,PDLP,85,,The solver PDLP is not installed.
+778,cvxpy,PDLP,77,,The solver PDLP is not installed.
+779,cvxpy,PDLP,65,,The solver PDLP is not installed.
+780,cvxpy,PDLP,82,,The solver PDLP is not installed.
+781,cvxpy,PDLP,86,,The solver PDLP is not installed.
+782,cvxpy,PDLP,56,,The solver PDLP is not installed.
+783,cvxpy,PDLP,84,,The solver PDLP is not installed.
+784,cvxpy,PDLP,76,,The solver PDLP is not installed.
+785,cvxpy,PDLP,81,,The solver PDLP is not installed.
+786,cvxpy,PDLP,88,,The solver PDLP is not installed.
+787,cvxpy,PDLP,93,,The solver PDLP is not installed.
+788,cvxpy,PDLP,89,,The solver PDLP is not installed.
+789,cvxpy,PDLP,79,,The solver PDLP is not installed.
+790,cvxpy,PDLP,83,,The solver PDLP is not installed.
+791,cvxpy,PDLP,98,,The solver PDLP is not installed.
+792,cvxpy,PDLP,96,,The solver PDLP is not installed.
+793,cvxpy,PDLP,90,,The solver PDLP is not installed.
+794,cvxpy,PDLP,97,,The solver PDLP is not installed.
+795,cvxpy,PDLP,91,,The solver PDLP is not installed.
+796,cvxpy,PDLP,92,,The solver PDLP is not installed.
+797,cvxpy,PDLP,95,,The solver PDLP is not installed.
+798,cvxpy,PDLP,94,,The solver PDLP is not installed.
+799,cvxpy,PDLP,99,,The solver PDLP is not installed.
+800,cvxpy,GUROBI,37,,The solver GUROBI is not installed.
+801,cvxpy,GUROBI,11,,The solver GUROBI is not installed.
+802,cvxpy,GUROBI,53,,The solver GUROBI is not installed.
+803,cvxpy,GUROBI,9,,The solver GUROBI is not installed.
+804,cvxpy,GUROBI,45,,The solver GUROBI is not installed.
+805,cvxpy,GUROBI,7,,The solver GUROBI is not installed.
+806,cvxpy,GUROBI,0,,The solver GUROBI is not installed.
+807,cvxpy,GUROBI,1,,The solver GUROBI is not installed.
+808,cvxpy,GUROBI,36,,The solver GUROBI is not installed.
+809,cvxpy,GUROBI,49,,The solver GUROBI is not installed.
+810,cvxpy,GUROBI,5,,The solver GUROBI is not installed.
+811,cvxpy,GUROBI,66,,The solver GUROBI is not installed.
+812,cvxpy,GUROBI,42,,The solver GUROBI is not installed.
+813,cvxpy,GUROBI,30,,The solver GUROBI is not installed.
+814,cvxpy,GUROBI,24,,The solver GUROBI is not installed.
+815,cvxpy,GUROBI,2,,The solver GUROBI is not installed.
+816,cvxpy,GUROBI,26,,The solver GUROBI is not installed.
+817,cvxpy,GUROBI,60,,The solver GUROBI is not installed.
+818,cvxpy,GUROBI,48,,The solver GUROBI is not installed.
+819,cvxpy,GUROBI,12,,The solver GUROBI is not installed.
+820,cvxpy,GUROBI,35,,The solver GUROBI is not installed.
+821,cvxpy,GUROBI,33,,The solver GUROBI is not installed.
+822,cvxpy,GUROBI,29,,The solver GUROBI is not installed.
+823,cvxpy,GUROBI,23,,The solver GUROBI is not installed.
+824,cvxpy,GUROBI,22,,The solver GUROBI is not installed.
+825,cvxpy,GUROBI,28,,The solver GUROBI is not installed.
+826,cvxpy,GUROBI,59,,The solver GUROBI is not installed.
+827,cvxpy,GUROBI,69,,The solver GUROBI is not installed.
+828,cvxpy,GUROBI,47,,The solver GUROBI is not installed.
+829,cvxpy,GUROBI,19,,The solver GUROBI is not installed.
+830,cvxpy,GUROBI,44,,The solver GUROBI is not installed.
+831,cvxpy,GUROBI,63,,The solver GUROBI is not installed.
+832,cvxpy,GUROBI,83,,The solver GUROBI is not installed.
+833,cvxpy,GUROBI,52,,The solver GUROBI is not installed.
+834,cvxpy,GUROBI,46,,The solver GUROBI is not installed.
+835,cvxpy,GUROBI,40,,The solver GUROBI is not installed.
+836,cvxpy,GUROBI,14,,The solver GUROBI is not installed.
+837,cvxpy,GUROBI,18,,The solver GUROBI is not installed.
+838,cvxpy,GUROBI,57,,The solver GUROBI is not installed.
+839,cvxpy,GUROBI,41,,The solver GUROBI is not installed.
+840,cvxpy,GUROBI,38,,The solver GUROBI is not installed.
+841,cvxpy,GUROBI,17,,The solver GUROBI is not installed.
+842,cvxpy,GUROBI,6,,The solver GUROBI is not installed.
+843,cvxpy,GUROBI,8,,The solver GUROBI is not installed.
+844,cvxpy,GUROBI,34,,The solver GUROBI is not installed.
+845,cvxpy,GUROBI,32,,The solver GUROBI is not installed.
+846,cvxpy,GUROBI,56,,The solver GUROBI is not installed.
+847,cvxpy,GUROBI,27,,The solver GUROBI is not installed.
+848,cvxpy,GUROBI,21,,The solver GUROBI is not installed.
+849,cvxpy,GUROBI,43,,The solver GUROBI is not installed.
+850,cvxpy,GUROBI,16,,The solver GUROBI is not installed.
+851,cvxpy,GUROBI,10,,The solver GUROBI is not installed.
+852,cvxpy,GUROBI,55,,The solver GUROBI is not installed.
+853,cvxpy,GUROBI,31,,The solver GUROBI is not installed.
+854,cvxpy,GUROBI,25,,The solver GUROBI is not installed.
+855,cvxpy,GUROBI,61,,The solver GUROBI is not installed.
+856,cvxpy,GUROBI,71,,The solver GUROBI is not installed.
+857,cvxpy,GUROBI,20,,The solver GUROBI is not installed.
+858,cvxpy,GUROBI,13,,The solver GUROBI is not installed.
+859,cvxpy,GUROBI,4,,The solver GUROBI is not installed.
+860,cvxpy,GUROBI,51,,The solver GUROBI is not installed.
+861,cvxpy,GUROBI,39,,The solver GUROBI is not installed.
+862,cvxpy,GUROBI,3,,The solver GUROBI is not installed.
+863,cvxpy,GUROBI,15,,The solver GUROBI is not installed.
+864,cvxpy,GUROBI,67,,The solver GUROBI is not installed.
+865,cvxpy,GUROBI,62,,The solver GUROBI is not installed.
+866,cvxpy,GUROBI,58,,The solver GUROBI is not installed.
+867,cvxpy,GUROBI,79,,The solver GUROBI is not installed.
+868,cvxpy,GUROBI,54,,The solver GUROBI is not installed.
+869,cvxpy,GUROBI,77,,The solver GUROBI is not installed.
+870,cvxpy,GUROBI,78,,The solver GUROBI is not installed.
+871,cvxpy,GUROBI,50,,The solver GUROBI is not installed.
+872,cvxpy,GUROBI,74,,The solver GUROBI is not installed.
+873,cvxpy,GUROBI,73,,The solver GUROBI is not installed.
+874,cvxpy,GUROBI,86,,The solver GUROBI is not installed.
+875,cvxpy,GUROBI,81,,The solver GUROBI is not installed.
+876,cvxpy,GUROBI,70,,The solver GUROBI is not installed.
+877,cvxpy,GUROBI,68,,The solver GUROBI is not installed.
+878,cvxpy,GUROBI,76,,The solver GUROBI is not installed.
+879,cvxpy,GUROBI,88,,The solver GUROBI is not installed.
+880,cvxpy,GUROBI,65,,The solver GUROBI is not installed.
+881,cvxpy,GUROBI,72,,The solver GUROBI is not installed.
+882,cvxpy,GUROBI,75,,The solver GUROBI is not installed.
+883,cvxpy,GUROBI,91,,The solver GUROBI is not installed.
+884,cvxpy,GUROBI,64,,The solver GUROBI is not installed.
+885,cvxpy,GUROBI,82,,The solver GUROBI is not installed.
+886,cvxpy,GUROBI,80,,The solver GUROBI is not installed.
+887,cvxpy,GUROBI,85,,The solver GUROBI is not installed.
+888,cvxpy,GUROBI,90,,The solver GUROBI is not installed.
+889,cvxpy,GUROBI,94,,The solver GUROBI is not installed.
+890,cvxpy,GUROBI,89,,The solver GUROBI is not installed.
+891,cvxpy,GUROBI,99,,The solver GUROBI is not installed.
+892,cvxpy,GUROBI,92,,The solver GUROBI is not installed.
+893,cvxpy,GUROBI,97,,The solver GUROBI is not installed.
+894,cvxpy,GUROBI,96,,The solver GUROBI is not installed.
+895,cvxpy,GUROBI,98,,The solver GUROBI is not installed.
+896,cvxpy,GUROBI,84,,The solver GUROBI is not installed.
+897,cvxpy,GUROBI,95,,The solver GUROBI is not installed.
+898,cvxpy,GUROBI,93,,The solver GUROBI is not installed.
+899,cvxpy,GUROBI,87,,The solver GUROBI is not installed.
+900,cvxpy,SCS,33,2011.6996479034424,
+901,cvxpy,SCS,12,2014.3661761283875,
+902,cvxpy,SCS,32,2014.146471977234,
+903,cvxpy,SCS,62,2019.916746854782,
+904,cvxpy,SCS,52,2020.0861451625824,
+905,cvxpy,SCS,74,2026.9744229316711,
+906,cvxpy,SCS,89,2029.5840051174164,
+907,cvxpy,SCS,14,2033.1159989833832,
+908,cvxpy,SCS,68,2032.4260468482971,
+909,cvxpy,SCS,70,2035.8869140148163,
+910,cvxpy,SCS,25,2044.8454582691193,
+911,cvxpy,SCS,81,2044.1704671382904,
+912,cvxpy,SCS,40,2049.0908501148224,
+913,cvxpy,SCS,44,2051.3686339855194,
+914,cvxpy,SCS,77,2053.746913909912,
+915,cvxpy,SCS,61,2061.397650718689,
+916,cvxpy,SCS,48,2061.600816011429,
+917,cvxpy,SCS,90,2067.4679102897644,
+918,cvxpy,SCS,82,2067.535717010498,
+919,cvxpy,SCS,98,2074.412431001663,
+920,cvxpy,SCS,27,2078.8340640068054,
+921,cvxpy,SCS,84,2078.100865840912,
+922,cvxpy,SCS,0,2082.0815720558167,
+923,cvxpy,SCS,64,2085.141261816025,
+924,cvxpy,SCS,2,2092.215359210968,
+925,cvxpy,SCS,85,2094.790471792221,
+926,cvxpy,SCS,63,2095.120877981186,
+927,cvxpy,SCS,20,2102.125298023224,
+928,cvxpy,SCS,78,2101.3370599746704,
+929,cvxpy,SCS,55,2105.630264043808,
+930,cvxpy,SCS,59,2112.3813948631287,
+931,cvxpy,SCS,56,2112.4627380371094,
+932,cvxpy,SCS,92,2115.402224779129,
+933,cvxpy,SCS,39,2119.6841039657593,
+934,cvxpy,SCS,75,2122.498960018158,
+935,cvxpy,SCS,37,2129.0660099983215,
+936,cvxpy,SCS,67,2132.1623129844666,
+937,cvxpy,SCS,16,2136.666221141815,
+938,cvxpy,SCS,30,2138.749691963196,
+939,cvxpy,SCS,88,2138.0200667381287,
+940,cvxpy,SCS,97,2145.1802937984467,
+941,cvxpy,SCS,76,2149.2297110557556,
+942,cvxpy,SCS,95,2152.1490659713745,
+943,cvxpy,SCS,43,2152.77970290184,
+944,cvxpy,SCS,94,2159.229815006256,
+945,cvxpy,SCS,60,2159.593812942505,
+946,cvxpy,SCS,71,2165.797038078308,
+947,cvxpy,SCS,66,2168.7199606895447,
+948,cvxpy,SCS,41,2169.0440862178802,
+949,cvxpy,SCS,5,2172.187180042267,
+950,cvxpy,SCS,28,2175.32484292984,
+951,cvxpy,SCS,10,2183.891723871231,
+952,cvxpy,SCS,13,2183.8894851207733,
+953,cvxpy,SCS,17,2186.811247110367,
+954,cvxpy,SCS,7,2190.1599543094635,
+955,cvxpy,SCS,96,2196.354320049286,
+956,cvxpy,SCS,79,2200.4682857990265,
+957,cvxpy,SCS,26,2201.1533210277557,
+958,cvxpy,SCS,31,2205.0415427684784,
+959,cvxpy,SCS,93,2207.398962020874,
+960,cvxpy,SCS,49,2211.311642885208,
+961,cvxpy,SCS,1,2215.545309782028,
+962,cvxpy,SCS,8,2218.8686830997467,
+963,cvxpy,SCS,29,2225.0934178829193,
+964,cvxpy,SCS,9,2228.411921262741,
+965,cvxpy,SCS,46,2228.0221688747406,
+966,cvxpy,SCS,21,2234.6223101615906,
+967,cvxpy,SCS,38,2234.327658891678,
+968,cvxpy,SCS,36,2237.8778138160706,
+969,cvxpy,SCS,51,2244.349553823471,
+970,cvxpy,SCS,50,2247.3203048706055,
+971,cvxpy,SCS,11,2250.591293811798,
+972,cvxpy,SCS,3,2250.6002311706543,
+973,cvxpy,SCS,86,2252.653191804886,
+974,cvxpy,SCS,23,2261.173905849457,
+975,cvxpy,SCS,4,2264.6744468212128,
+976,cvxpy,SCS,65,2264.007539987564,
+977,cvxpy,SCS,18,2267.098908185959,
+978,cvxpy,SCS,47,2273.0391018390656,
+979,cvxpy,SCS,58,2276.931433916092,
+980,cvxpy,SCS,42,2280.3609499931335,
+981,cvxpy,SCS,22,2283.430866956711,
+982,cvxpy,SCS,24,2287.0589501857758,
+983,cvxpy,SCS,69,2286.485216856003,
+984,cvxpy,SCS,15,2294.6762170791626,
+985,cvxpy,SCS,6,2294.6946680545807,
+986,cvxpy,SCS,80,2296.8321928977966,
+987,cvxpy,SCS,83,2300.163176059723,
+988,cvxpy,SCS,57,2306.478891849518,
+989,cvxpy,SCS,35,2309.857043981552,
+990,cvxpy,SCS,87,2309.1845088005066,
+991,cvxpy,SCS,45,2312.6204600334167,
+992,cvxpy,SCS,19,2316.476900100708,
+993,cvxpy,SCS,34,2324.8299672603607,
+994,cvxpy,SCS,53,2324.6611857414246,
+995,cvxpy,SCS,72,2327.7420070171356,
+996,cvxpy,SCS,73,2329.0488731861115,
+997,cvxpy,SCS,91,2331.371017932892,
+998,cvxpy,SCS,99,2333.649297952652,
+999,cvxpy,SCS,54,2335.8329889774323,
+1000,qpsolver,osqp,39,0.045213937759399414,
+1001,qpsolver,osqp,63,0.044738054275512695,
+1002,qpsolver,osqp,37,0.09025692939758301,
+1003,qpsolver,osqp,41,0.08113265037536621,
+1004,qpsolver,osqp,26,0.062480926513671875,
+1005,qpsolver,osqp,48,0.030764102935791016,
+1006,qpsolver,osqp,3,0.08521914482116699,
+1007,qpsolver,osqp,24,0.051156044006347656,
+1008,qpsolver,osqp,1,0.04290890693664551,
+1009,qpsolver,osqp,9,0.14909005165100098,
+1010,qpsolver,osqp,67,0.04809379577636719,
+1011,qpsolver,osqp,55,0.06621289253234863,
+1012,qpsolver,osqp,32,0.057350873947143555,
+1013,qpsolver,osqp,16,0.08196568489074707,
+1014,qpsolver,osqp,4,0.051489830017089844,
+1015,qpsolver,osqp,23,0.055817365646362305,
+1016,qpsolver,osqp,0,0.05598902702331543,
+1017,qpsolver,osqp,7,0.016013145446777344,
+1018,qpsolver,osqp,53,0.056793928146362305,
+1019,qpsolver,osqp,27,0.07965683937072754,
+1020,qpsolver,osqp,6,0.015547037124633789,
+1021,qpsolver,osqp,12,0.061945199966430664,
+1022,qpsolver,osqp,25,0.0505528450012207,
+1023,qpsolver,osqp,8,0.06348204612731934,
+1024,qpsolver,osqp,56,0.05861306190490723,
+1025,qpsolver,osqp,21,0.07752299308776855,
+1026,qpsolver,osqp,61,0.06385207176208496,
+1027,qpsolver,osqp,19,0.05975079536437988,
+1028,qpsolver,osqp,42,0.05761289596557617,
+1029,qpsolver,osqp,34,0.04568600654602051,
+1030,qpsolver,osqp,10,0.08521890640258789,
+1031,qpsolver,osqp,18,0.09030413627624512,
+1032,qpsolver,osqp,49,0.054183244705200195,
+1033,qpsolver,osqp,13,0.11202788352966309,
+1034,qpsolver,osqp,20,0.07151484489440918,
+1035,qpsolver,osqp,50,0.05825090408325195,
+1036,qpsolver,osqp,17,0.09837818145751953,
+1037,qpsolver,osqp,14,0.09083104133605957,
+1038,qpsolver,osqp,22,0.06269311904907227,
+1039,qpsolver,osqp,11,0.11424732208251953,
+1040,qpsolver,osqp,35,0.07542586326599121,
+1041,qpsolver,osqp,29,0.03520989418029785,
+1042,qpsolver,osqp,52,0.06162619590759277,
+1043,qpsolver,osqp,40,0.0374598503112793,
+1044,qpsolver,osqp,28,0.04087090492248535,
+1045,qpsolver,osqp,15,0.08971118927001953,
+1046,qpsolver,osqp,31,0.11457085609436035,
+1047,qpsolver,osqp,51,0.07043623924255371,
+1048,qpsolver,osqp,30,0.04311704635620117,
+1049,qpsolver,osqp,5,0.015865087509155273,
+1050,qpsolver,osqp,2,0.03451871871948242,
+1051,qpsolver,osqp,44,0.05753493309020996,
+1052,qpsolver,osqp,36,0.051450252532958984,
+1053,qpsolver,osqp,60,0.07447004318237305,
+1054,qpsolver,osqp,71,0.058120012283325195,
+1055,qpsolver,osqp,38,0.11093521118164062,
+1056,qpsolver,osqp,69,0.06556272506713867,
+1057,qpsolver,osqp,65,0.06957387924194336,
+1058,qpsolver,osqp,45,0.10592269897460938,
+1059,qpsolver,osqp,58,0.09052610397338867,
+1060,qpsolver,osqp,64,0.07696199417114258,
+1061,qpsolver,osqp,46,0.1117861270904541,
+1062,qpsolver,osqp,57,0.09769821166992188,
+1063,qpsolver,osqp,33,0.13129711151123047,
+1064,qpsolver,osqp,70,0.07663416862487793,
+1065,qpsolver,osqp,75,0.06514120101928711,
+1066,qpsolver,osqp,80,0.05037426948547363,
+1067,qpsolver,osqp,54,0.10733604431152344,
+1068,qpsolver,osqp,47,0.11900091171264648,
+1069,qpsolver,osqp,77,0.06575512886047363,
+1070,qpsolver,osqp,76,0.06917905807495117,
+1071,qpsolver,osqp,62,0.09183120727539062,
+1072,qpsolver,osqp,72,0.08246088027954102,
+1073,qpsolver,osqp,81,0.05814218521118164,
+1074,qpsolver,osqp,78,0.06946110725402832,
+1075,qpsolver,osqp,93,0.04492306709289551,
+1076,qpsolver,osqp,68,0.09054803848266602,
+1077,qpsolver,osqp,66,0.09330201148986816,
+1078,qpsolver,osqp,79,0.0646519660949707,
+1079,qpsolver,osqp,59,0.10732102394104004,
+1080,qpsolver,osqp,73,0.09074997901916504,
+1081,qpsolver,osqp,87,0.061242103576660156,
+1082,qpsolver,osqp,84,0.06451797485351562,
+1083,qpsolver,osqp,82,0.07284712791442871,
+1084,qpsolver,osqp,43,0.14412593841552734,
+1085,qpsolver,osqp,96,0.05434417724609375,
+1086,qpsolver,osqp,74,0.09596681594848633,
+1087,qpsolver,osqp,90,0.06556987762451172,
+1088,qpsolver,osqp,88,0.0679481029510498,
+1089,qpsolver,osqp,94,0.06606006622314453,
+1090,qpsolver,osqp,98,0.05432605743408203,
+1091,qpsolver,osqp,89,0.077423095703125,
+1092,qpsolver,osqp,97,0.06808900833129883,
+1093,qpsolver,osqp,91,0.07951593399047852,
+1094,qpsolver,osqp,99,0.06309890747070312,
+1095,qpsolver,osqp,86,0.08622097969055176,
+1096,qpsolver,osqp,83,0.08882832527160645,
+1097,qpsolver,osqp,92,0.07997417449951172,
+1098,qpsolver,osqp,95,0.0763251781463623,
+1099,qpsolver,osqp,85,0.10834574699401855,
+1100,qpsolver,ecos,6,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1101,qpsolver,ecos,0,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1102,qpsolver,ecos,52,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1103,qpsolver,ecos,98,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1104,qpsolver,ecos,97,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1105,qpsolver,ecos,4,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1106,qpsolver,ecos,10,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1107,qpsolver,ecos,18,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1108,qpsolver,ecos,12,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1109,qpsolver,ecos,50,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1110,qpsolver,ecos,79,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1111,qpsolver,ecos,37,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1112,qpsolver,ecos,44,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1113,qpsolver,ecos,99,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1114,qpsolver,ecos,40,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1115,qpsolver,ecos,46,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1116,qpsolver,ecos,2,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1117,qpsolver,ecos,53,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1118,qpsolver,ecos,31,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1119,qpsolver,ecos,49,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1120,qpsolver,ecos,69,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1121,qpsolver,ecos,84,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1122,qpsolver,ecos,83,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1123,qpsolver,ecos,94,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1124,qpsolver,ecos,3,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1125,qpsolver,ecos,24,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1126,qpsolver,ecos,91,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1127,qpsolver,ecos,15,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1128,qpsolver,ecos,35,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1129,qpsolver,ecos,16,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1130,qpsolver,ecos,61,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1131,qpsolver,ecos,1,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1132,qpsolver,ecos,67,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1133,qpsolver,ecos,43,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1134,qpsolver,ecos,77,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1135,qpsolver,ecos,13,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1136,qpsolver,ecos,21,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1137,qpsolver,ecos,92,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1138,qpsolver,ecos,34,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1139,qpsolver,ecos,80,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1140,qpsolver,ecos,9,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1141,qpsolver,ecos,55,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1142,qpsolver,ecos,42,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1143,qpsolver,ecos,54,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1144,qpsolver,ecos,86,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1145,qpsolver,ecos,89,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1146,qpsolver,ecos,11,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1147,qpsolver,ecos,96,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1148,qpsolver,ecos,85,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1149,qpsolver,ecos,62,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1150,qpsolver,ecos,27,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1151,qpsolver,ecos,41,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1152,qpsolver,ecos,68,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1153,qpsolver,ecos,29,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1154,qpsolver,ecos,30,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1155,qpsolver,ecos,22,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1156,qpsolver,ecos,73,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1157,qpsolver,ecos,70,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1158,qpsolver,ecos,57,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1159,qpsolver,ecos,74,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1160,qpsolver,ecos,14,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1161,qpsolver,ecos,51,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1162,qpsolver,ecos,36,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1163,qpsolver,ecos,19,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1164,qpsolver,ecos,82,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1165,qpsolver,ecos,63,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1166,qpsolver,ecos,47,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1167,qpsolver,ecos,20,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1168,qpsolver,ecos,8,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1169,qpsolver,ecos,78,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1170,qpsolver,ecos,81,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1171,qpsolver,ecos,60,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1172,qpsolver,ecos,23,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1173,qpsolver,ecos,17,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1174,qpsolver,ecos,32,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1175,qpsolver,ecos,58,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1176,qpsolver,ecos,39,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1177,qpsolver,ecos,88,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1178,qpsolver,ecos,7,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1179,qpsolver,ecos,38,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1180,qpsolver,ecos,48,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1181,qpsolver,ecos,95,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1182,qpsolver,ecos,5,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1183,qpsolver,ecos,66,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1184,qpsolver,ecos,25,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1185,qpsolver,ecos,87,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1186,qpsolver,ecos,59,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1187,qpsolver,ecos,71,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1188,qpsolver,ecos,26,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1189,qpsolver,ecos,93,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1190,qpsolver,ecos,56,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1191,qpsolver,ecos,75,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1192,qpsolver,ecos,90,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1193,qpsolver,ecos,65,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1194,qpsolver,ecos,45,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1195,qpsolver,ecos,76,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1196,qpsolver,ecos,28,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1197,qpsolver,ecos,64,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1198,qpsolver,ecos,33,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1199,qpsolver,ecos,72,,"solver 'ecos' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1200,qpsolver,cvxopt,49,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1201,qpsolver,cvxopt,74,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1202,qpsolver,cvxopt,48,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1203,qpsolver,cvxopt,37,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1204,qpsolver,cvxopt,38,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1205,qpsolver,cvxopt,75,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1206,qpsolver,cvxopt,47,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1207,qpsolver,cvxopt,39,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1208,qpsolver,cvxopt,83,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1209,qpsolver,cvxopt,35,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1210,qpsolver,cvxopt,52,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1211,qpsolver,cvxopt,82,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1212,qpsolver,cvxopt,14,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1213,qpsolver,cvxopt,17,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1214,qpsolver,cvxopt,50,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1215,qpsolver,cvxopt,77,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1216,qpsolver,cvxopt,51,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1217,qpsolver,cvxopt,1,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1218,qpsolver,cvxopt,29,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1219,qpsolver,cvxopt,80,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1220,qpsolver,cvxopt,31,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1221,qpsolver,cvxopt,13,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1222,qpsolver,cvxopt,45,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1223,qpsolver,cvxopt,42,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1224,qpsolver,cvxopt,30,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1225,qpsolver,cvxopt,28,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1226,qpsolver,cvxopt,44,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1227,qpsolver,cvxopt,79,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1228,qpsolver,cvxopt,40,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1229,qpsolver,cvxopt,27,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1230,qpsolver,cvxopt,15,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1231,qpsolver,cvxopt,76,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1232,qpsolver,cvxopt,78,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1233,qpsolver,cvxopt,22,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1234,qpsolver,cvxopt,73,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1235,qpsolver,cvxopt,16,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1236,qpsolver,cvxopt,43,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1237,qpsolver,cvxopt,56,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1238,qpsolver,cvxopt,12,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1239,qpsolver,cvxopt,34,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1240,qpsolver,cvxopt,71,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1241,qpsolver,cvxopt,55,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1242,qpsolver,cvxopt,36,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1243,qpsolver,cvxopt,18,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1244,qpsolver,cvxopt,32,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1245,qpsolver,cvxopt,54,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1246,qpsolver,cvxopt,21,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1247,qpsolver,cvxopt,33,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1248,qpsolver,cvxopt,41,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1249,qpsolver,cvxopt,5,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1250,qpsolver,cvxopt,53,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1251,qpsolver,cvxopt,46,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1252,qpsolver,cvxopt,0,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1253,qpsolver,cvxopt,25,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1254,qpsolver,cvxopt,61,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1255,qpsolver,cvxopt,23,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1256,qpsolver,cvxopt,24,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1257,qpsolver,cvxopt,60,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1258,qpsolver,cvxopt,59,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1259,qpsolver,cvxopt,19,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1260,qpsolver,cvxopt,7,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1261,qpsolver,cvxopt,10,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1262,qpsolver,cvxopt,93,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1263,qpsolver,cvxopt,11,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1264,qpsolver,cvxopt,96,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1265,qpsolver,cvxopt,20,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1266,qpsolver,cvxopt,67,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1267,qpsolver,cvxopt,84,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1268,qpsolver,cvxopt,94,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1269,qpsolver,cvxopt,69,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1270,qpsolver,cvxopt,70,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1271,qpsolver,cvxopt,6,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1272,qpsolver,cvxopt,85,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1273,qpsolver,cvxopt,9,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1274,qpsolver,cvxopt,65,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1275,qpsolver,cvxopt,63,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1276,qpsolver,cvxopt,2,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1277,qpsolver,cvxopt,97,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1278,qpsolver,cvxopt,64,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1279,qpsolver,cvxopt,62,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1280,qpsolver,cvxopt,57,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1281,qpsolver,cvxopt,89,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1282,qpsolver,cvxopt,88,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1283,qpsolver,cvxopt,66,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1284,qpsolver,cvxopt,3,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1285,qpsolver,cvxopt,87,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1286,qpsolver,cvxopt,68,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1287,qpsolver,cvxopt,4,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1288,qpsolver,cvxopt,8,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1289,qpsolver,cvxopt,99,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1290,qpsolver,cvxopt,58,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1291,qpsolver,cvxopt,26,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1292,qpsolver,cvxopt,72,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1293,qpsolver,cvxopt,81,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1294,qpsolver,cvxopt,98,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1295,qpsolver,cvxopt,90,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1296,qpsolver,cvxopt,92,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1297,qpsolver,cvxopt,95,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1298,qpsolver,cvxopt,91,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1299,qpsolver,cvxopt,86,,"solver 'cvxopt' is not in the list ['cvxpy', 'ecos', 'osqp', 'quadprog', 'scs'] of available solvers"
+1300,qpsolver,scs,38,0.06887483596801758,
+1301,qpsolver,scs,21,0.15860390663146973,
+1302,qpsolver,scs,56,0.04564309120178223,
+1303,qpsolver,scs,16,0.03041696548461914,
+1304,qpsolver,scs,6,0.049636125564575195,
+1305,qpsolver,scs,19,0.03783607482910156,
+1306,qpsolver,scs,11,0.043478965759277344,
+1307,qpsolver,scs,54,0.0706319808959961,
+1308,qpsolver,scs,8,0.05046701431274414,
+1309,qpsolver,scs,3,0.05868887901306152,
+1310,qpsolver,scs,24,0.1301109790802002,
+1311,qpsolver,scs,12,0.04038691520690918,
+1312,qpsolver,scs,33,0.15229105949401855,
+1313,qpsolver,scs,76,0.03846096992492676,
+1314,qpsolver,scs,69,0.03892207145690918,
+1315,qpsolver,scs,20,0.044471025466918945,
+1316,qpsolver,scs,18,0.050621986389160156,
+1317,qpsolver,scs,42,0.03955197334289551,
+1318,qpsolver,scs,2,0.050390005111694336,
+1319,qpsolver,scs,15,0.033284902572631836,
+1320,qpsolver,scs,13,0.039585113525390625,
+1321,qpsolver,scs,61,0.03652215003967285,
+1322,qpsolver,scs,29,0.07813501358032227,
+1323,qpsolver,scs,65,0.04007411003112793,
+1324,qpsolver,scs,53,0.09992480278015137,
+1325,qpsolver,scs,31,0.06008195877075195,
+1326,qpsolver,scs,55,0.06069803237915039,
+1327,qpsolver,scs,67,0.0697479248046875,
+1328,qpsolver,scs,27,0.04924893379211426,
+1329,qpsolver,scs,5,0.06461596488952637,
+1330,qpsolver,scs,48,0.04424309730529785,
+1331,qpsolver,scs,39,0.037158966064453125,
+1332,qpsolver,scs,4,0.039357900619506836,
+1333,qpsolver,scs,10,0.06806778907775879,
+1334,qpsolver,scs,9,0.04732704162597656,
+1335,qpsolver,scs,0,0.05666399002075195,
+1336,qpsolver,scs,30,0.0372309684753418,
+1337,qpsolver,scs,77,0.05311298370361328,
+1338,qpsolver,scs,44,0.06657004356384277,
+1339,qpsolver,scs,17,0.04792284965515137,
+1340,qpsolver,scs,50,0.11236715316772461,
+1341,qpsolver,scs,28,0.0486140251159668,
+1342,qpsolver,scs,36,0.10605692863464355,
+1343,qpsolver,scs,22,0.043272972106933594,
+1344,qpsolver,scs,14,0.1781930923461914,
+1345,qpsolver,scs,59,0.04584503173828125,
+1346,qpsolver,scs,37,0.059029340744018555,
+1347,qpsolver,scs,72,0.060392141342163086,
+1348,qpsolver,scs,75,0.03677082061767578,
+1349,qpsolver,scs,52,0.059411048889160156,
+1350,qpsolver,scs,23,0.1287989616394043,
+1351,qpsolver,scs,40,0.04318714141845703,
+1352,qpsolver,scs,32,0.04533243179321289,
+1353,qpsolver,scs,49,0.059288978576660156,
+1354,qpsolver,scs,51,0.04342198371887207,
+1355,qpsolver,scs,25,0.04165911674499512,
+1356,qpsolver,scs,7,0.033220767974853516,
+1357,qpsolver,scs,34,0.054766178131103516,
+1358,qpsolver,scs,1,0.06078076362609863,
+1359,qpsolver,scs,41,0.07408475875854492,
+1360,qpsolver,scs,79,0.03433489799499512,
+1361,qpsolver,scs,26,0.19769525527954102,
+1362,qpsolver,scs,47,0.14940404891967773,
+1363,qpsolver,scs,74,0.07079815864562988,
+1364,qpsolver,scs,58,0.11431193351745605,
+1365,qpsolver,scs,84,0.03830432891845703,
+1366,qpsolver,scs,71,0.08973908424377441,
+1367,qpsolver,scs,86,0.043856143951416016,
+1368,qpsolver,scs,93,0.040052175521850586,
+1369,qpsolver,scs,87,0.05066084861755371,
+1370,qpsolver,scs,70,0.10637116432189941,
+1371,qpsolver,scs,57,0.15331196784973145,
+1372,qpsolver,scs,62,0.13321805000305176,
+1373,qpsolver,scs,46,0.19141888618469238,
+1374,qpsolver,scs,45,0.2006080150604248,
+1375,qpsolver,scs,35,0.21699309349060059,
+1376,qpsolver,scs,81,0.0787501335144043,
+1377,qpsolver,scs,60,0.1468520164489746,
+1378,qpsolver,scs,73,0.12394499778747559,
+1379,qpsolver,scs,64,0.14844918251037598,
+1380,qpsolver,scs,63,0.15195894241333008,
+1381,qpsolver,scs,99,0.04930710792541504,
+1382,qpsolver,scs,88,0.08435797691345215,
+1383,qpsolver,scs,83,0.09259200096130371,
+1384,qpsolver,scs,68,0.14990019798278809,
+1385,qpsolver,scs,78,0.10393285751342773,
+1386,qpsolver,scs,80,0.10325908660888672,
+1387,qpsolver,scs,66,0.15807414054870605,
+1388,qpsolver,scs,43,0.22881412506103516,
+1389,qpsolver,scs,90,0.0899190902709961,
+1390,qpsolver,scs,94,0.08289408683776855,
+1391,qpsolver,scs,82,0.11227607727050781,
+1392,qpsolver,scs,92,0.09359288215637207,
+1393,qpsolver,scs,91,0.09641695022583008,
+1394,qpsolver,scs,95,0.09248924255371094,
+1395,qpsolver,scs,96,0.09098982810974121,
+1396,qpsolver,scs,89,0.11878204345703125,
+1397,qpsolver,scs,85,0.12484407424926758,
+1398,qpsolver,scs,98,0.0958399772644043,
+1399,qpsolver,scs,97,0.1048738956451416,
+1400,qpsolver,quadprog,4,21.525768995285034,
+1401,qpsolver,quadprog,3,21.649102687835693,
+1402,qpsolver,quadprog,10,21.796671152114868,
+1403,qpsolver,quadprog,6,21.855584859848022,
+1404,qpsolver,quadprog,2,21.898855924606323,
+1405,qpsolver,quadprog,9,21.913430213928223,
+1406,qpsolver,quadprog,0,22.04565691947937,
+1407,qpsolver,quadprog,5,22.050045013427734,
+1408,qpsolver,quadprog,1,22.17348599433899,
+1409,qpsolver,quadprog,7,22.445000171661377,
+1410,qpsolver,quadprog,12,22.41526699066162,
+1411,qpsolver,quadprog,11,22.477203130722046,
+1412,qpsolver,quadprog,17,22.61916995048523,
+1413,qpsolver,quadprog,13,22.715801000595093,
+1414,qpsolver,quadprog,8,22.787988424301147,
+1415,qpsolver,quadprog,18,22.655251026153564,
+1416,qpsolver,quadprog,22,22.60930585861206,
+1417,qpsolver,quadprog,16,22.81866431236267,
+1418,qpsolver,quadprog,21,22.739662170410156,
+1419,qpsolver,quadprog,20,22.78173518180847,
+1420,qpsolver,quadprog,25,22.788622856140137,
+1421,qpsolver,quadprog,27,22.862576723098755,
+1422,qpsolver,quadprog,15,23.154020071029663,
+1423,qpsolver,quadprog,19,23.106115102767944,
+1424,qpsolver,quadprog,24,23.05705189704895,
+1425,qpsolver,quadprog,23,23.0836820602417,
+1426,qpsolver,quadprog,14,23.235851049423218,
+1427,qpsolver,quadprog,28,23.07045030593872,
+1428,qpsolver,quadprog,34,22.909510135650635,
+1429,qpsolver,quadprog,33,23.116129875183105,
+1430,qpsolver,quadprog,38,23.039639949798584,
+1431,qpsolver,quadprog,30,23.166579008102417,
+1432,qpsolver,quadprog,35,23.094390869140625,
+1433,qpsolver,quadprog,26,23.38284730911255,
+1434,qpsolver,quadprog,40,23.047383785247803,
+1435,qpsolver,quadprog,37,23.181430101394653,
+1436,qpsolver,quadprog,39,23.134649991989136,
+1437,qpsolver,quadprog,31,23.50339388847351,
+1438,qpsolver,quadprog,41,23.317693948745728,
+1439,qpsolver,quadprog,32,23.57316303253174,
+1440,qpsolver,quadprog,44,23.40232491493225,
+1441,qpsolver,quadprog,45,23.36211609840393,
+1442,qpsolver,quadprog,51,23.310883045196533,
+1443,qpsolver,quadprog,60,23.12196111679077,
+1444,qpsolver,quadprog,48,23.533382177352905,
+1445,qpsolver,quadprog,62,23.22908115386963,
+1446,qpsolver,quadprog,47,23.641695976257324,
+1447,qpsolver,quadprog,53,23.47407627105713,
+1448,qpsolver,quadprog,55,23.51138710975647,
+1449,qpsolver,quadprog,59,23.378824949264526,
+1450,qpsolver,quadprog,29,24.217944145202637,
+1451,qpsolver,quadprog,56,23.567187070846558,
+1452,qpsolver,quadprog,70,23.273734092712402,
+1453,qpsolver,quadprog,57,23.609242916107178,
+1454,qpsolver,quadprog,49,23.908955097198486,
+1455,qpsolver,quadprog,72,23.40504002571106,
+1456,qpsolver,quadprog,43,24.069309949874878,
+1457,qpsolver,quadprog,65,23.57629084587097,
+1458,qpsolver,quadprog,61,23.64730191230774,
+1459,qpsolver,quadprog,42,24.148948907852173,
+1460,qpsolver,quadprog,95,22.984952211380005,
+1461,qpsolver,quadprog,52,23.97640323638916,
+1462,qpsolver,quadprog,54,23.9343900680542,
+1463,qpsolver,quadprog,58,23.826378107070923,
+1464,qpsolver,quadprog,71,23.593921899795532,
+1465,qpsolver,quadprog,36,24.38142204284668,
+1466,qpsolver,quadprog,80,23.47170114517212,
+1467,qpsolver,quadprog,50,24.132539749145508,
+1468,qpsolver,quadprog,92,23.171040058135986,
+1469,qpsolver,quadprog,68,23.675256967544556,
+1470,qpsolver,quadprog,67,23.712456941604614,
+1471,qpsolver,quadprog,93,23.149760007858276,
+1472,qpsolver,quadprog,73,23.550048112869263,
+1473,qpsolver,quadprog,82,23.51413083076477,
+1474,qpsolver,quadprog,86,23.412962913513184,
+1475,qpsolver,quadprog,90,23.238194942474365,
+1476,qpsolver,quadprog,63,23.841349840164185,
+1477,qpsolver,quadprog,64,23.842056274414062,
+1478,qpsolver,quadprog,94,23.19292902946472,
+1479,qpsolver,quadprog,75,23.598476886749268,
+1480,qpsolver,quadprog,91,23.275603771209717,
+1481,qpsolver,quadprog,46,24.301839113235474,
+1482,qpsolver,quadprog,87,23.362058877944946,
+1483,qpsolver,quadprog,76,23.622877836227417,
+1484,qpsolver,quadprog,78,23.620512008666992,
+1485,qpsolver,quadprog,66,23.906640768051147,
+1486,qpsolver,quadprog,81,23.629566192626953,
+1487,qpsolver,quadprog,77,23.657665729522705,
+1488,qpsolver,quadprog,69,23.808668851852417,
+1489,qpsolver,quadprog,89,23.35520315170288,
+1490,qpsolver,quadprog,85,23.537347078323364,
+1491,qpsolver,quadprog,79,23.661845922470093,
+1492,qpsolver,quadprog,99,22.779702186584473,
+1493,qpsolver,quadprog,98,22.873500108718872,
+1494,qpsolver,quadprog,96,23.237408876419067,
+1495,qpsolver,quadprog,83,23.663923978805542,
+1496,qpsolver,quadprog,88,23.43321394920349,
+1497,qpsolver,quadprog,74,23.72487711906433,
+1498,qpsolver,quadprog,97,23.248443126678467,
+1499,qpsolver,quadprog,84,23.658271074295044,
