@@ -14,6 +14,9 @@ from pydantic import Field
 from auction_engine import one_inch
 from auction_engine.schemas import LimitOrder, StrictModel, Transaction, OrderStateEnum
 
+# TODO: [1] Implement "Auction TWAP" in the paper - trader submits a large lumpsum order, each auction generates a LimitOrder, 
+# AuctionTWAP object continues to do so until the entire order has been exhausted
+# TODO: [2] Eventually replace with a better BBO-like scheme
 
 class AuctionOrder(StrictModel):
     order: LimitOrder
@@ -27,6 +30,23 @@ class AuctionResult(StrictModel):
     from_token: str
     to_token: str
     result_timestamp: datetime.datetime
+
+
+class OrderBookEntry(AuctionOrder):
+    token_pair: str
+    
+    # Calculated at initialization
+    std_pair: str | None = None
+    std_rate_upper_limit: Decimal | None = None
+    std_rate_lower_limit: Decimal | None = None
+    std_quantity: Decimal | None = None
+
+    # Updated after auction completes
+    state: OrderStateEnum
+
+
+class OrderBook(StrictModel, arbitrary_types_allowed=True):
+    data: pd.DataFrame | None = None
 
 
 class Auction(StrictModel, arbitrary_types_allowed=True):
@@ -45,7 +65,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         self.orders_by_id = {order.order_id: order for order in self.orders}
         order_book = pd.DataFrame.from_records(
             data=[order.dict() for order in self.orders],
-            columns=LimitOrder.fields()
+            columns=OrderBookEntry.fields()
         )
         standard_pair = f'{self.from_token}/{self.to_token}'
         order_book['pair'] = (
@@ -203,6 +223,26 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         ]
         return transactions
 
+    def _pre_auction(self) -> None:
+        ...
+
+    def _auction(self) -> None:
+        ...
+
+    def _post_acution(self) -> None:
+        ...
+
+    def run2(self) -> AuctionResult:
+        # Gather orders submitted for the auction's token pair
+        # Build and solve the optimization problem
+        # Validate the clearing price against 3rd party (within tolerance band)
+        # Update the order book (change order state)
+        # Compile transactions
+        # Return AuctionResult
+        self._pre_auction()
+        self._auction()
+        self._post_acution()
+
     def run(self) -> AuctionResult:
         logging.info('Starting auction')
         order_book = self.get_order_book().pipe(self.exclude_non_marketable_orders)
@@ -211,7 +251,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         logging.info('Optimizing')
         opt_problem.solve()
 
-        reference_rate = one_inch.get_reference_rate(self.from_token, self.to_token)
+        reference_rate = one_inch.get_reference_rate(self.from_token, self.to_token) # TODO: [2]
         clearing_rate = opt_problem.constraints[0].dual_value
         logging.info(f'Validating clearing_rate {clearing_rate} with 1inch')
 

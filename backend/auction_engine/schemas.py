@@ -27,8 +27,12 @@ class LimitOrder(StrictModel):
     from_token: str
     to_token: str
     from_token_amount: int
-    rate_upper_limit: Decimal
-    rate_lower_limit: Decimal
+    rate_upper_limit: Decimal = Field(
+        description='The upper bound on the clearing price',
+    )
+    rate_lower_limit: Decimal = Field(
+        description='The lower bound on the clearing price',
+    )
     sent_timestamp: datetime.datetime
     received_timestamp: datetime.datetime = Field(
         default_factory=datetime.datetime.utcnow,

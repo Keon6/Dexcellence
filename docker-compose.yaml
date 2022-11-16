@@ -28,3 +28,12 @@ services:
       - '3000:3000'
     stdin_open: true
     tty: true
+  backend-dev:
+    profiles:
+      - dev
+    build:
+      context: .
+      dockerfile: backend/auction_engine.dockerfile
+    volumes:
+      - ./backend:/code
+    tty: true
