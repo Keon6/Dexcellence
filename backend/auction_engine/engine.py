@@ -63,6 +63,7 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
     def get_order_book(self) -> pd.DataFrame:
         logging.info('Compiling order book data')
         self.orders_by_id = {order.order_id: order for order in self.orders}
+
         order_book = pd.DataFrame.from_records(
             data=[order.dict() for order in self.orders],
             columns=OrderBookEntry.fields()
@@ -71,17 +72,14 @@ class Auction(StrictModel, arbitrary_types_allowed=True):
         order_book['pair'] = (
             order_book['from_token'] + '/' + order_book['to_token']
         )
-        fltr_standard_pair = order_book['pair'].eq(standard_pair)
 
+        standard_fltr = order_book["pair"].eq(standard_pair)
         for rate in ['rate_upper_limit', 'rate_lower_limit']:
-            standard_rate = order_book[rate].copy()
-            standard_rate[~fltr_standard_pair] = (
-                -standard_rate.loc[~fltr_standard_pair].pow(-1)
-            )
-            order_book[f'standard_{rate}'] = standard_rate
+            order_book[f'standard_{rate}'] = order_book["rate"]
+            order_book.loc[~standard_fltr, f'standard_{rate}'] = -order_book.loc[~standard_fltr, f'standard_{rate}'].pow(-1)
 
         order_book['standard_pair'] = standard_pair
-        order_book['standard_amount'] = order_book['from_token_amount']
+        order_book.rename(columns={"standard_amount": "from_token_amount"}, inplace=True)
         order_book['side'] = order_book['pair'].map({standard_pair: 'BUY'}).fillna('SELL')
 
         # Determine the subset of marketable orders

@@ -2,6 +2,7 @@ import datetime
 from decimal import Decimal
 from enum import IntEnum
 
+
 from pydantic import BaseModel, Field
 
 
