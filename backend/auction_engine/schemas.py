@@ -27,7 +27,7 @@ class LimitOrder(StrictModel):
     wallet_id: str
     from_token: str
     to_token: str
-    from_token_amount: int
+    from_token_amount: Decimal
     rate_upper_limit: Decimal = Field(
         description='The upper bound on the clearing price',
     )
