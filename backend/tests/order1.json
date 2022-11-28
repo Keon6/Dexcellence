@@ -1,0 +1,11 @@
+{
+    "order_id": "1231",
+    "wallet_id": "0x12344e",
+    "from_token": "0xr125f",
+    "to_token": "0xwer4w",
+    "from_token_amount": 1.2,
+    "rate_upper_limit": 206.31,
+    "rate_lower_limit": 204.4,
+    "sent_timestamp": "2022-04-23T11:20:30.400+02:30",
+    "received_timestamp": "2022-04-23T11:20:30.560+02:30"
+}

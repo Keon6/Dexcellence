@@ -1,10 +1,11 @@
 import datetime
 from decimal import Decimal
 from enum import IntEnum
-
+from typing import (
+    Deque, Dict, FrozenSet, List, Optional, Sequence, Set, Tuple, Union
+)
 
 from pydantic import BaseModel, Field
-
 
 class BaseEnum(IntEnum):
     @classmethod
@@ -21,6 +22,20 @@ class StrictModel(BaseModel, extra='forbid'):
     def fields(cls) -> list[str]:
         return list(cls.__fields__.keys())
 
+class AuctionMetadata(StrictModel):
+    start_time: datetime.datetime
+    end_time: datetime.datetime = None
+    order_ids: List[str]
+    txn_id: str = None #TODO: should txns be stored per txn or as a single giant Table
+
+    def __getitem__(self, item):
+        return getattr(self, item)
+
+class AuctionTableMetadata(StrictModel):
+    auction_metadata: List[AuctionMetadata]
+
+    def __getitem__(self, item):
+        return getattr(self, item)
 
 class LimitOrder(StrictModel):
     order_id: str
