@@ -17,9 +17,12 @@ def _upload_new_data_to_IPFS(endpoint: str, proj_id: str, api_secret: str, data_
     """
     simply add new file to IPFS and return its hash
     """
+    f = open(data_file_path, 'rb')
     files = {
-        'file': open(data_file_path, 'rb'),
+        'file': f
     }
+    f.close()
+
     response = requests.post(endpoint + '/api/v0/add', files=files, auth=(proj_id, api_secret))
 
     if response.status_code != 200:
@@ -30,7 +33,7 @@ def _upload_new_data_to_IPFS(endpoint: str, proj_id: str, api_secret: str, data_
     return response
     
 
-def _retrieve_data_from_IPFS(cid_hash, endpoint, proj_id, api_secret) -> requests.Response:
+def _retrieve_data_from_IPFS(cid_hash: str, endpoint: str, proj_id: str, api_secret: str) -> requests.Response:
     """
     Return a particular data stored on IPFS
     """
@@ -49,10 +52,10 @@ def _retrieve_data_from_IPFS(cid_hash, endpoint, proj_id, api_secret) -> request
 
     return response
 
-def _get_IPFS_cid_from_response(response):
+def _get_IPFS_cid_from_response(response: requests.Response):
     return response.text.split(",")[1].split(":")[1].replace('"','')
 
-def create_new_auction(auction_metadata_hash, endpoint, proj_id, api_secret) -> str:
+def create_new_auction(auction_metadata_hash: str, endpoint: str, proj_id: str, api_secret: str) -> str:
     # TODO: How do we deal with orders that come in btw previous auction end and before new 
     #   auction metadata hash has been communicated to everyone (all OMS clients)
 
@@ -63,7 +66,8 @@ def create_new_auction(auction_metadata_hash, endpoint, proj_id, api_secret) -> 
         requests.post(endpoint + '/api/v0/pin/rm', params={'arg': current_CID}, auth=(proj_id, api_secret))
         
         auction_metadata = auction_metadata_response.json()
-        if type(auction_metadata) is str:
+        
+        if isinstance(auction_metadata, str) is True:
             auction_metadata = json.loads(auction_metadata)
         del auction_metadata_response
     else: # Create from scratch!
@@ -80,7 +84,7 @@ def create_new_auction(auction_metadata_hash, endpoint, proj_id, api_secret) -> 
     return _get_IPFS_cid_from_response(response) # return CID of the newly updated auction_metadata
 
 
-def add_new_order(auction_metadata_hash, endpoint: str, proj_id: str, api_secret: str, data_file_path: str) -> str:
+def add_new_order(auction_metadata_hash: str, endpoint: str, proj_id: str, api_secret: str, data_file_path: str) -> str:
     """
     Do this only once per auction 
     :param endpoint - string of endpoint for Infura IPFS
@@ -107,7 +111,7 @@ def add_new_order(auction_metadata_hash, endpoint: str, proj_id: str, api_secret
     requests.post(endpoint + '/api/v0/pin/rm', params={'arg': current_CID}, auth=(proj_id, api_secret))
 
     auction_metadata = auction_metadata_response.json()
-    if type(auction_metadata) == str:
+    if isinstance(auction_metadata, str) is True:
         auction_metadata = json.loads(auction_metadata)
     del auction_metadata_response
 
@@ -122,7 +126,7 @@ def add_new_order(auction_metadata_hash, endpoint: str, proj_id: str, api_secret
 
 ##################### These are really to be used by the auction engine
 
-async def _retrieve_data_from_IPFS_parallel(cid_hash, endpoint, proj_id, api_secret, session) -> requests.Response:
+async def _retrieve_data_from_IPFS_parallel(cid_hash: str, endpoint: str, proj_id: str, api_secret: str, session: str) -> requests.Response:
     """
     Return a particular data stored on IPFS
     """
@@ -136,7 +140,7 @@ async def _retrieve_data_from_IPFS_parallel(cid_hash, endpoint, proj_id, api_sec
             return response
 
 # TODO: dedug
-async def get_auction_orders(auction_metadata_hash, endpoint: str, proj_id: str, api_secret: str) -> pd.DataFrame:
+async def get_auction_orders(auction_metadata_hash: str, endpoint: str, proj_id: str, api_secret: str) -> pd.DataFrame:
     """
     :param auction_id - string of current hash of the IPFS CID of current orders
     :param endpoint - string of endpoint for Infura IPFS
@@ -151,19 +155,21 @@ async def get_auction_orders(auction_metadata_hash, endpoint: str, proj_id: str,
     requests.post(endpoint + '/api/v0/pin/rm', params={'arg': current_CID}, auth=(proj_id, api_secret))
 
     auction_metadata = auction_metadata_response.json()
-    if type(auction_metadata) is str:
+    if isinstance(auction_metadata, str) is True:
         auction_metadata = json.loads(auction_metadata)
     del auction_metadata_response
 
     # Get the orders!
     async with aiohttp.ClientSession() as session:
         responses = await asyncio.gather(
-            *[_retrieve_data_from_IPFS_parallel(auction_id, endpoint, proj_id, api_secret, session) for auction_id in auction_metadata["auction_metadata"][-1]["order_ids"]]
+            *[_retrieve_data_from_IPFS_parallel(auction_id, endpoint, proj_id, api_secret, session) 
+              for auction_id in auction_metadata["auction_metadata"][-1]["order_ids"]
+            ]
         )
         print(responses)
 
 # TODO: test & debug
-def get_transactions(transaction_table_id, endpoint: str, proj_id: str, api_secret: str) -> pd.DataFrame:
+def get_transactions(transaction_table_id: str, endpoint: str, proj_id: str, api_secret: str) -> pd.DataFrame:
     """
     :param transaction_table_id - string of current hash of the IPFS CID of txns
     :param endpoint - string of endpoint for Infura IPFS
@@ -183,7 +189,7 @@ def get_transactions(transaction_table_id, endpoint: str, proj_id: str, api_secr
 ########################### The below are to be used by data API endpoints
 
 # TODO: fix so that you could just use auction_metadata
-def get_historical_orders(start_time, end_time, time_to_auction_id, endpoint, proj_id, api_secret):
+def get_historical_orders(start_time: str, end_time: str, time_to_auction_id: str, endpoint: str, proj_id: str, api_secret: str):
     df = []
     for time, auction_id in time_to_auction_id.items():
         if start_time <= time and time <= end_time:
