@@ -58,7 +58,9 @@ def create_new_auction(auction_metadata_hash, endpoint, proj_id, api_secret) -> 
 
     if auction_metadata_hash is not None:
         auction_metadata_response = _retrieve_data_from_IPFS(auction_metadata_hash, endpoint, proj_id, api_secret)
-        current_CID = _get_IPFS_cid_from_response(auction_metadata_response) # TODO: Should I unpin and remove this?
+        current_CID = _get_IPFS_cid_from_response(auction_metadata_response)
+        # remove old table
+        requests.post(endpoint + '/api/v0/pin/rm', params={'arg': current_CID}, auth=(proj_id, api_secret))
         
         auction_metadata = auction_metadata_response.json()
         if type(auction_metadata) is str:
@@ -100,7 +102,9 @@ def add_new_order(auction_metadata_hash, endpoint: str, proj_id: str, api_secret
     
     # Second, update auction metadata by adding the new order
     auction_metadata_response = _retrieve_data_from_IPFS(auction_metadata_hash, endpoint, proj_id, api_secret)
-    current_CID = _get_IPFS_cid_from_response(auction_metadata_response) # TODO: Should I unpin and remove this?
+    current_CID = _get_IPFS_cid_from_response(auction_metadata_response) 
+    # remove old table
+    requests.post(endpoint + '/api/v0/pin/rm', params={'arg': current_CID}, auth=(proj_id, api_secret))
 
     auction_metadata = auction_metadata_response.json()
     if type(auction_metadata) == str:
@@ -142,7 +146,9 @@ async def get_auction_orders(auction_metadata_hash, endpoint: str, proj_id: str,
     """
     # Get auction metadata
     auction_metadata_response = _retrieve_data_from_IPFS(auction_metadata_hash, endpoint, proj_id, api_secret)
-    current_CID = _get_IPFS_cid_from_response(auction_metadata_response) # TODO: Should I unpin and remove this?
+    current_CID = _get_IPFS_cid_from_response(auction_metadata_response)
+    # remove old table
+    requests.post(endpoint + '/api/v0/pin/rm', params={'arg': current_CID}, auth=(proj_id, api_secret))
 
     auction_metadata = auction_metadata_response.json()
     if type(auction_metadata) is str:
